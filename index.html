@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HSK Practice - Luyện thi HSK 3.0</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>HSK Practice</h1>
+    <p>你的中文学习之旅，从这里开始！</p>
+  </header>
+
+  <main>
+    <h2>Chọn cấp độ HSK</h2>
+    <p>Chào mừng bạn đến với website luyện thi tiếng Trung.</p>
+
+    
+
+<section class="levels">
+  <button onclick="showHSK1Tests()">HSK 1</button>
+
+<div id="hsk1TestMenu" class="test-menu" hidden>
+  <h3>Chọn bộ đề HSK 1</h3>
+  <div id="hsk1TestButtons" class="test-buttons"></div>
+</div>
+
+  <button disabled>HSK 2</button>
+  <button disabled>HSK 3</button>
+  <button disabled>HSK 4</button>
+  <button disabled>HSK 5</button>
+  <button disabled>HSK 6</button>
+</section>
+
+
+<section id="phoneticsLesson" class="lesson-panel" hidden>
+  <div class="lesson-hero">
+    <p class="eyebrow">HSK 1 · Bài 1</p>
+    <h2>一、语音 · Ngữ âm</h2>
+    <p>Nghe mẫu trước, sau đó học từng kiến thức cùng ví dụ tương ứng.</p>
+  </div>
+
+  <section class="audio-first-card" aria-labelledby="sampleAudioTitle">
+    <div class="audio-first-copy">
+      <span class="audio-kicker">BƯỚC 1 · NGHE TRƯỚC</span>
+      <h3 id="sampleAudioTitle">Nghe mẫu · 听录音</h3>
+      <p>Nghe mẫu Ngữ âm trước khi học từng phần.</p>
+    </div>
+    <audio controls preload="metadata" src="audio/yuyin.mp3">Trình duyệt không hỗ trợ phát audio.</audio>
+  </section>
+
+  <div class="lesson-page-heading">
+    <span class="eyebrow">BƯỚC 2 · HỌC TỪNG PHẦN</span>
+    <h3 id="lessonPageTitle">Trang 1 · Âm tiết tiếng Trung</h3>
+    <p id="lessonPageDescription">Nắm khái niệm rồi xem ví dụ ngay bên dưới.</p>
+  </div>
+  <nav class="lesson-page-nav" aria-label="Chọn trang kiến thức">
+    <button type="button" class="lesson-page-dot active" data-lesson-page="0">1. Âm tiết</button>
+    <button type="button" class="lesson-page-dot" data-lesson-page="1">2. Thanh mẫu &amp; vận mẫu</button>
+    <button type="button" class="lesson-page-dot" data-lesson-page="2">3. Thanh điệu</button>
+  </nav>
+
+  <div class="lesson-pages">
+    <article class="lesson-page active" data-page="0">
+      <section class="knowledge-card">
+        <h4>Kiến thức · 汉语音节</h4>
+        <p>Mỗi chữ Hán thường tương ứng với một âm tiết. Một âm tiết tiếng Trung thường gồm <strong>thanh mẫu</strong>, <strong>vận mẫu</strong> và <strong>thanh điệu</strong>; đôi khi chỉ gồm vận mẫu và thanh điệu.</p>
+        <div class="syllable-parts" aria-label="Các thành phần của âm tiết">
+          <div><span>声母</span><strong>Thanh mẫu</strong><small>Âm đầu</small></div><span class="plus">+</span>
+          <div><span>韵母</span><strong>Vận mẫu</strong><small>Phần vần</small></div><span class="plus">+</span>
+          <div><span>声调</span><strong>Thanh điệu</strong><small>Dấu thanh</small></div>
+        </div>
+        <p class="knowledge-note">Lưu ý: có âm tiết không có thanh mẫu, ví dụ các âm tiết bắt đầu trực tiếp bằng vận mẫu.</p>
+      </section>
+      <section class="example-card">
+        <span class="example-label">VÍ DỤ 1 · ÂM TIẾT</span>
+        <h4>Thanh mẫu + vận mẫu + thanh điệu</h4>
+        <div class="syllable-breakdown"><span><b>b</b><small>Thanh mẫu</small></span><i>+</i><span><b>a</b><small>Vận mẫu</small></span><i>+</i><span><b>ˉ</b><small>Thanh điệu</small></span><i>→</i><strong>bā · 八</strong></div>
+        <p>Bảng trong giáo trình cho thấy cùng b + a có thể tạo thành bā、bá、bǎ、bà; khi không có thanh mẫu, vận mẫu a cũng có thể tạo âm tiết ā、á.</p>
+      </section>
+      <section class="example-card">
+        <span class="example-label">VÍ DỤ HÌNH ẢNH · PHẦN 1</span>
+        <p>Nhìn Pinyin và chữ Hán, nghe mẫu rồi đọc to từng âm tiết.</p>
+        <div class="designed-vocab-grid photo-vocab-grid">
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_tea.jpg" alt="Trà" loading="lazy"><span class="vocab-pinyin">chá</span><strong>茶</strong><small>Trà</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_dog.jpg" alt="Chó" loading="lazy"><span class="vocab-pinyin">gǒu</span><strong>狗</strong><small>Chó</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_cat.jpg" alt="Mèo" loading="lazy"><span class="vocab-pinyin">māo</span><strong>猫</strong><small>Mèo</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_vegetables.jpg" alt="Rau" loading="lazy"><span class="vocab-pinyin">cài</span><strong>菜</strong><small>Rau</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_cup.jpg" alt="Cốc" loading="lazy"><span class="vocab-pinyin">bēizi</span><strong>杯子</strong><small>Cốc</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_student.jpg" alt="Học sinh" loading="lazy"><span class="vocab-pinyin">xuésheng</span><strong>学生</strong><small>Học sinh</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_teachers.jpg" alt="Giáo viên" loading="lazy"><span class="vocab-pinyin">lǎoshī</span><strong>老师</strong><small>Giáo viên</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_eggs.jpg" alt="Trứng" loading="lazy"><span class="vocab-pinyin">jīdàn</span><strong>鸡蛋</strong><small>Trứng</small></article>
+        </div>
+      </section>
+    </article>
+
+    <article class="lesson-page" data-page="1" hidden>
+      <section class="knowledge-card">
+        <h4>Kiến thức · 声母和韵母</h4>
+        <p><strong>Thanh mẫu</strong> là âm đầu; <strong>vận mẫu</strong> là phần vần. Hai phần kết hợp để tạo thành âm tiết, nhưng không phải mọi thanh mẫu đều ghép được với mọi vận mẫu.</p>
+        <div class="initial-final-table" role="table" aria-label="Bảng thanh mẫu và vận mẫu theo giáo trình">
+          <div class="initial-final-row initial-final-head" role="row"><strong>声母 · Thanh mẫu</strong><strong>韵母 · Vận mẫu</strong></div>
+          <div class="initial-final-row" role="row"><span>b　p　m　f</span><span>a　o　e　i [i]　u　er</span></div>
+          <div class="initial-final-row" role="row"><span>d　t　n　l</span><span>ai　ei　ao　ou</span></div>
+          <div class="initial-final-row" role="row"><span>g　k　h</span><span>an　en</span></div>
+          <div class="initial-final-row" role="row"><span></span><span>ang　eng　ong</span></div>
+        </div>
+        <ul><li>Vận mẫu <strong>er</strong> có thể đứng độc lập thành một âm tiết.</li><li>Theo bảng trong giáo trình, thanh mẫu <strong>n, l</strong> có thể ghép với <strong>ü</strong> và các vận mẫu bắt đầu bằng <strong>ü</strong>.</li></ul>
+        <section class="example-card compact-example">
+          <span class="example-label">VÍ DỤ ĐI KÈM · BẢNG THANH MẪU VÀ VẬN MẪU</span>
+          <p>Đọc lần lượt các thanh mẫu và vận mẫu trong bảng, sau đó đọc lại các quy tắc ghép ngay phía trên. Vận mẫu <strong>er</strong> đứng độc lập thành một âm tiết.</p>
+        </section>
+      </section>
+
+    </article>
+
+    <article class="lesson-page" data-page="2" hidden>
+      <section class="knowledge-card">
+        <h4>Kiến thức · 四声</h4>
+        <p>Tiếng Trung có bốn thanh điệu cơ bản. Khi phát âm, cần chú ý đường đi của giọng.</p>
+        <div class="tone-grid">
+          <div class="tone-card"><strong>第一声</strong><span class="tone-mark">ˉ</span><b>Thanh 1</b><small>55 · cao và ngang</small></div>
+          <div class="tone-card"><strong>第二声</strong><span class="tone-mark">ˊ</span><b>Thanh 2</b><small>35 · đi lên</small></div>
+          <div class="tone-card"><strong>第三声</strong><span class="tone-mark">ˇ</span><b>Thanh 3</b><small>214 · xuống rồi lên</small></div>
+          <div class="tone-card"><strong>第四声</strong><span class="tone-mark">ˋ</span><b>Thanh 4</b><small>51 · đi xuống</small></div>
+        </div>
+        <p>Trong Pinyin, dấu thanh được đặt trên nguyên âm chính của vận mẫu. Thanh điệu khác nhau có thể làm thay đổi ý nghĩa.</p>
+      </section>
+      <section class="example-card">
+        <span class="example-label">VÍ DỤ ĐỌC · THANH ĐIỆU</span>
+        <h4>Nghe mẫu, đọc từng cột theo bốn thanh điệu</h4>
+        <p>Các ví dụ dưới đây được giữ theo hình trong giáo trình. Đọc từ trái sang phải và chú ý dấu thanh trên nguyên âm.</p>
+        <div class="tone-example-board" aria-label="Ví dụ đọc thanh điệu">
+          <div class="tone-example-row"><span class="tone-row-label">a</span><strong>ā</strong><strong>á</strong><strong>ǎ</strong><strong>à</strong></div>
+          <div class="tone-example-row"><span class="tone-row-label">e</span><strong>ē</strong><strong>é</strong><strong>ě</strong><strong>è</strong></div>
+          <div class="tone-example-row"><span class="tone-row-label">er</span><strong>—</strong><strong>ér</strong><strong>ěr</strong><strong>èr</strong></div>
+          <div class="tone-example-row"><span class="tone-row-label">dǎ</span><strong>dǎ</strong><strong>dá</strong><strong>dǎ</strong><strong>dà</strong></div>
+          <div class="tone-example-row"><span class="tone-row-label">kē</span><strong>kē</strong><strong>ké</strong><strong>kě</strong><strong>kè</strong></div>
+          <div class="tone-board-legend"><span>第一声 · ˉ</span><span>第二声 · ˊ</span><span>第三声 · ˇ</span><span>第四声 · ˋ</span></div>
+        </div>
+      </section>
+      <section class="example-card">
+        <span class="example-label">VÍ DỤ HÌNH ẢNH · PHẦN 3</span>
+        <p>Xem hình, nghe mẫu và nhắc lại Pinyin cùng chữ Hán.</p>
+        <div class="designed-vocab-grid tone-vocab-grid photo-vocab-grid">
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_mouth.jpg" alt="Miệng" loading="lazy"><span class="vocab-pinyin">kǒu</span><strong>口</strong><small>Miệng</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_rice.jpg" alt="Cơm" loading="lazy"><span class="vocab-pinyin">fàn</span><strong>饭</strong><small>Cơm</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_drinking-water.jpg" alt="Uống" loading="lazy"><span class="vocab-pinyin">hē</span><strong>喝</strong><small>Uống</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_two-blocks.jpg" alt="Số hai" loading="lazy"><span class="vocab-pinyin">èr</span><strong>二</strong><small>Số hai</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_greeting.jpg" alt="Xin chào" loading="lazy"><span class="vocab-pinyin">nǐ hǎo</span><strong>你好</strong><small>Xin chào</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_friends.jpg" alt="Bạn bè" loading="lazy"><span class="vocab-pinyin">péngyou</span><strong>朋友</strong><small>Bạn bè</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_bread.jpg" alt="Bánh mì" loading="lazy"><span class="vocab-pinyin">miànbāo</span><strong>面包</strong><small>Bánh mì</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_sisters.jpg" alt="Em gái" loading="lazy"><span class="vocab-pinyin">mèimei</span><strong>妹妹</strong><small>Em gái</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_room.jpg" alt="Phòng" loading="lazy"><span class="vocab-pinyin">fángjiān</span><strong>房间</strong><small>Phòng</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_daytime.jpg" alt="Ban ngày" loading="lazy"><span class="vocab-pinyin">báitiān</span><strong>白天</strong><small>Ban ngày</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_restaurant.jpg" alt="Nhà hàng" loading="lazy"><span class="vocab-pinyin">fàndiàn</span><strong>饭店</strong><small>Nhà hàng</small></article>
+          <article class="vocab-tile photo-vocab-tile"><img class="vocab-photo" src="images/example_computer.jpg" alt="Máy tính" loading="lazy"><span class="vocab-pinyin">diànnǎo</span><strong>电脑</strong><small>Máy tính</small></article>
+        </div>
+      </section>
+    </article>
+  </div>
+
+  <div class="lesson-page-controls">
+    <button id="previousLessonPage" type="button" disabled>← Trang trước</button>
+    <span id="lessonPageCount">1 / 3</span>
+    <button id="nextLessonPage" type="button">Trang tiếp →</button>
+  </div>
+  <section id="lessonPracticeStart" class="practice-intro" hidden>
+    <h3>Bạn đã xem xong kiến thức và ví dụ</h3>
+    <p>Bây giờ hãy làm bài luyện tập theo thứ tự trong giáo trình. Đáp án chỉ hiện sau khi nộp bài.</p>
+    <button id="beginPracticeBtn" class="primary-button" type="button" onclick="startHSK1(currentTestName)">Bắt đầu luyện tập →</button>
+  </section>
+</section>
+
+<div id="sampleAudioDock" class="sample-audio-dock" aria-label="Trình phát audio" hidden><span id="sampleAudioDockLabel">语音 · Nghe mẫu</span><div id="sampleAudioDockSlot"></div></div>
+
+<section id="quiz" class="quiz" hidden>
+  <h2>HSK 1 - Bài luyện tập</h2>
+  <div class="test-audio">
+  <p>🎧 Audio luyện tập</p>
+  <audio id="testAudio" controls preload="none">
+    Trình duyệt không hỗ trợ phát audio.
+  </audio>
+</div>
+
+<div class="quiz-progress">
+  <div class="progress-info">
+    <span id="progressText">Đã trả lời 0 câu</span>
+    <span id="progressPercent">0%</span>
+  </div>
+
+  <div class="progress-track">
+    <div id="progressBar" class="progress-bar"></div>
+  </div>
+</div>
+
+<div id="questionNavigation" class="question-navigation"></div>
+
+<div class="question-controls">
+  <button id="prevBtn" type="button" onclick="changeQuestion(-1)">
+    ← Câu trước
+  </button>
+
+  <span id="currentQuestionText">Câu 1</span>
+  <button id="nextBtn" type="button" onclick="changeQuestion(1)">
+    Câu tiếp →
+  </button>
+</div>
+
+
+  <div id="questions"></div>
+
+  <button id="submitBtn" onclick="submitQuiz()">
+    Nộp bài
+  </button>
+  <button id="redoBtn" onclick="startHSK1()" hidden>
+  Làm lại bài
+</button>
+
+  <div id="result" aria-live="polite"></div>
+
+  <button id="backBtn" onclick="backToHome()" hidden>
+    Quay lại trang chủ
+  </button>
+</section>
+
+
+
+
+
+
+  </main>
+
+  <footer>
+    <p>HSK Practice · Learn Chinese step by step</p>
+  </footer>
+
+ <script src="questions.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
