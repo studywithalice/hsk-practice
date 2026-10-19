@@ -1,7 +1,7 @@
 
 let currentQuestion = 0;
 let currentQuestions = [];
-let currentTestName = "Bài 1 - AI小语，你好！";
+let currentTestName = "Bài 1 - AI 小语，你好！";
 let quizSubmitted = false;
 
 function showHSK1Tests() {
@@ -50,7 +50,7 @@ function setDockAudio(source, label) {
   if (labelEl && label) labelEl.textContent = label;
 }
 
-function openHSK1Lesson(testName = "Bài 1 - AI小语，你好！") {
+function openHSK1Lesson(testName = "Bài 1 - AI 小语，你好！") {
   currentTestName = testName;
   const lesson = document.getElementById("phoneticsLesson");
   const quiz = document.getElementById("quiz");
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
   showLessonPage(0, false);
 });
 
-function startHSK1(testName = "Bài 1 - AI小语，你好！") {
+function startHSK1(testName = "Bài 1 - AI 小语，你好！") {
   currentTestName = testName;
   // Image examples belong to the learning stage, not to the scored exercise list.
   currentQuestions = (window.hsk1Tests?.[currentTestName] || [])
@@ -429,8 +429,14 @@ function updateQuestionNavigation() {
 }
 
 function updateProgress() {
-  const total = currentQuestions.length;
-  const answered = currentQuestions.filter((item, index) =>
+  const scoredQuestions = currentQuestions
+    .map((item, index) => ({ item, index }))
+    .filter(({ item }) =>
+      item.type !== "reading" && item.type !== "image-gallery"
+    );
+
+  const total = scoredQuestions.length;
+  const answered = scoredQuestions.filter(({ index }) =>
     isAnswered(index)
   ).length;
 
@@ -452,8 +458,11 @@ function submitQuiz() {
   if (quizSubmitted) return;
 
   const unanswered = currentQuestions.filter(
-    (item, index) => !isAnswered(index)
-  ).length;
+  (item, index) =>
+    item.type !== "reading" &&
+    item.type !== "image-gallery" &&
+    !isAnswered(index)
+).length;
 
   if (unanswered > 0) {
     const confirmSubmit = confirm(
