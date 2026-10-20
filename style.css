@@ -12,8 +12,9 @@ body {
 }
 
 header {
-  background: #e8ddfa;
-  padding: 40px 20px;
+  background: transparent;
+  padding: 28px 20px;
+  border-bottom: 1px solid #eee5fa;
 }
 
 header h1 {
@@ -900,4 +901,287 @@ main { padding-bottom: 116px; }
     min-height: 52px;
     padding: 12px 8px;
   }
+}
+
+/* Navigation between level selection and the 15 HSK 1 test sets */
+.test-page {
+  max-width: 900px;
+  min-height: 60vh;
+  margin: 28px auto;
+  padding: clamp(20px, 4vw, 36px);
+  text-align: center;
+  box-shadow: 0 8px 28px rgba(112, 77, 164, 0.10);
+}
+.test-page h2 {
+  margin: 18px 0 8px;
+  color: #68499a;
+}
+.test-page > p {
+  color: #776b88;
+  margin-bottom: 24px;
+}
+.test-page .test-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.test-page .test-buttons button {
+  min-height: 64px;
+  padding: 16px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(105, 73, 154, 0.10);
+}
+.back-button {
+  display: block;
+  margin: 0 auto 12px 0;
+  padding: 10px 14px;
+  border: 1px solid #d9c8f0;
+  border-radius: 10px;
+  background: #fff;
+  color: #68499a;
+  font-weight: 700;
+  cursor: pointer;
+}
+.back-button:hover { background: #f1eaff; }
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 15px;
+  border: 0;
+  border-radius: 999px;
+  background: #8060b0;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 5px 18px rgba(64, 54, 83, 0.22);
+  cursor: pointer;
+}
+.back-to-top:hover { background: #68499a; }
+.question-data-warning {
+  margin: 14px 0 0;
+  padding: 12px 14px;
+  border: 1px solid #e7c989;
+  border-radius: 10px;
+  background: #fff9e9;
+  color: #76561b;
+  line-height: 1.6;
+}
+@media (max-width: 600px) {
+  .test-page .test-buttons { grid-template-columns: 1fr; }
+  .test-page .test-buttons button { font-size: 16px; }
+  .back-to-top { right: 12px; bottom: 12px; padding: 11px 13px; }
+  .back-to-top span { display: none; }
+}
+
+
+/* Brand assets: supplied Study with Alice logo */
+header .site-brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: min(900px, 96vw);
+  max-width: 100%;
+  padding: 8px 14px;
+  background: transparent;
+  border-radius: 0;
+  margin: 0 auto 12px;
+  text-decoration: none;
+  overflow: hidden;
+}
+header .site-logo {
+  display: block;
+  width: min(820px, 92vw);
+  max-width: 100%;
+  max-height: 190px;
+  height: auto;
+  object-fit: contain;
+}
+header p { margin-top: 4px; }
+@media (max-width: 600px) {
+  header { padding: 24px 14px; }
+  header .site-logo { width: min(460px, 94vw); max-height: 120px; }
+}
+
+
+/* Quiz navigation: make the current test and return action obvious. */
+#quizTitle {
+  padding: 14px 16px;
+  background: #f4edff;
+  border: 1px solid #e3d1fb;
+  border-radius: 14px;
+  overflow-wrap: anywhere;
+}
+#backBtn {
+  min-height: 48px;
+  min-width: min(280px, 100%);
+  margin: 16px auto 24px;
+}
+
+/* Brand fix: logo PNG has real alpha transparency; do not add a white card behind it. */
+header, header .site-brand, header .site-logo { background: transparent !important; box-shadow: none; }
+header .site-logo { display: block; object-fit: contain; }
+
+
+/* Bài 2: trình xem trang sách nguyên bản; styles scoped để không đổi Bài 1 */
+.lesson2-book-viewer { max-width: 1120px; margin: 24px auto; padding: clamp(14px, 3vw, 30px); background: #fff; border: 1px solid #e8dff1; border-radius: 24px; box-shadow: 0 12px 36px rgba(64,54,83,.07); }
+.lesson2-book-heading h2 { margin: 4px 0 8px; }
+.lesson2-book-note { color: #655a73; line-height: 1.65; }
+.lesson2-audio-block { display: grid; grid-template-columns: minmax(180px, .7fr) minmax(260px, 1.3fr); gap: 18px; align-items: center; margin: 20px 0; padding: 16px 18px; border-radius: 16px; background: #fff6f5; border: 1px solid #f5d8d5; }
+.lesson2-audio-block p { margin: 5px 0 0; color: #655a73; }
+.lesson2-audio-block audio { width: 100%; max-width: 100%; }
+.lesson2-page-frame { padding: clamp(8px, 2vw, 18px); background: #fbf9fd; border: 1px solid #eee6f5; border-radius: 18px; text-align: center; }
+.lesson2-page-counter { margin: 0 0 12px; font-weight: 700; color: #69528a; }
+.lesson2-page-frame img { display: block; width: auto; max-width: 100%; height: auto; max-height: 78vh; object-fit: contain; margin: 0 auto; border-radius: 3px; box-shadow: 0 4px 18px rgba(45,34,59,.10); }
+.lesson2-page-controls { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:12px; margin:18px 0 26px; }
+.lesson2-page-controls > button { border:1px solid #d9c8ed; background:#fff; color:#514267; border-radius:12px; padding:11px 16px; font-weight:700; cursor:pointer; }
+.lesson2-page-controls > button:disabled { opacity:.45; cursor:not-allowed; }
+#lesson2PageDots { display:flex; gap:8px; }
+#lesson2PageDots button { width:38px; height:38px; border:1px solid #dfd2ee; background:#fff; color:#514267; border-radius:50%; cursor:pointer; }
+#lesson2PageDots button.active { background:#6e4ca0; color:#fff; border-color:#6e4ca0; }
+.lesson2-practice-cta { padding:20px; background:#f7f1ff; border-radius:16px; }
+.lesson2-practice-cta p { line-height:1.6; }
+@media (max-width:650px) { .lesson2-audio-block { grid-template-columns:1fr; } .lesson2-page-frame img { max-height:none; width:100%; } }
+
+
+/* Navigation buttons only for the Bài 2 book-viewer; Bài 1 remains untouched. */
+.lesson2-return-nav { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin:0 0 18px; }
+.lesson2-return-nav button { border:1px solid #d9c8ed; background:#fff; color:#514267; border-radius:12px; padding:10px 15px; font-weight:700; cursor:pointer; transition:background .2s ease, transform .2s ease; }
+.lesson2-return-nav button:hover { background:#f5efff; transform:translateY(-1px); }
+@media (max-width:520px) { .lesson2-return-nav { display:grid; grid-template-columns:1fr; } .lesson2-return-nav button { width:100%; } }
+
+
+/* Bài 2: sách hiển thị theo hai phần; sticky audio khi cuộn, không ảnh hưởng Bài 1 */
+#phoneticsLesson2.lesson2-book-viewer { max-width: 1240px; margin: 22px auto; padding: clamp(14px, 2.5vw, 30px); }
+#phoneticsLesson2 .lesson2-audio-block { position: sticky; top: 8px; z-index: 20; box-shadow: 0 8px 24px rgba(64,54,83,.12); backdrop-filter: blur(10px); }
+#phoneticsLesson2 .lesson2-book-section { margin: 28px 0 36px; scroll-margin-top: 130px; }
+#phoneticsLesson2 .lesson2-book-section > h3 { display:flex; align-items:center; gap:12px; margin:0 0 16px; padding:14px 18px; border-radius:16px; color:#4e3b66; background:linear-gradient(100deg,#f5edff,#fff6f4); font-size:clamp(1.15rem,2vw,1.55rem); line-height:1.4; }
+#phoneticsLesson2 .lesson2-book-section > h3 span { display:inline-flex; flex:0 0 38px; width:38px; height:38px; align-items:center; justify-content:center; border-radius:12px; color:#fff; background:#ed6a67; }
+#phoneticsLesson2 .lesson2-page-frame { margin:16px 0 24px; padding:clamp(8px,1.5vw,18px); background:#fff; border:1px solid #eee5f5; border-radius:20px; }
+#phoneticsLesson2 .lesson2-page-frame img { display:block; width:100%; max-width:1000px; max-height:none; height:auto; object-fit:contain; margin:0 auto; border-radius:5px; box-shadow:0 5px 20px rgba(45,34,59,.10); image-rendering:auto; }
+#phoneticsLesson2 .lesson2-book-heading { margin-bottom:16px; }
+@media (max-width:650px) { #phoneticsLesson2.lesson2-book-viewer { padding:12px; } #phoneticsLesson2 .lesson2-audio-block { top:4px; grid-template-columns:1fr; gap:8px; } #phoneticsLesson2 .lesson2-page-frame { padding:5px; } }
+
+
+/* Lesson 2 refinements: crisp book scans, clean section split, compact bottom audio. */
+#phoneticsLesson2 .lesson2-audio-block {
+  position: fixed; left: 50%; bottom: 10px; top: auto; transform: translateX(-50%);
+  z-index: 100; width: min(680px, calc(100vw - 28px));
+  display: grid; grid-template-columns: auto minmax(180px, 1fr); gap: 10px;
+  margin: 0; padding: 8px 12px; border-radius: 14px;
+  background: rgba(255,255,255,.96); border: 1px solid #e7d8f5;
+  box-shadow: 0 6px 24px rgba(64,54,83,.18); backdrop-filter: blur(10px);
+}
+#phoneticsLesson2 .lesson2-audio-block p { display:none; }
+#phoneticsLesson2 .lesson2-audio-block strong { align-self:center; font-size:.88rem; white-space:nowrap; }
+#phoneticsLesson2 .lesson2-audio-block audio { height:34px; width:100%; }
+#phoneticsLesson2 .lesson2-page-frame img { max-width:1100px; filter: contrast(1.02); }
+#phoneticsLesson2 .lesson2-book-section { scroll-margin-bottom:90px; }
+body:has(#phoneticsLesson2:not([hidden])) { padding-bottom:76px; }
+@media (max-width:560px) {
+  #phoneticsLesson2 .lesson2-audio-block { grid-template-columns:1fr; gap:3px; padding:6px 10px; }
+  #phoneticsLesson2 .lesson2-audio-block strong { font-size:.78rem; }
+  #phoneticsLesson2 .lesson2-audio-block audio { height:30px; }
+}
+
+
+/* Cải thiện khả năng đọc phần bài tập Bài 2, giữ bố cục gọn như Bài 1. */
+.quiz-return-nav {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 12px;
+}
+.quiz-return-nav .back-button {
+  margin: 0;
+}
+.lesson2-exercise-card h3 {
+  font-size: 22px;
+  line-height: 1.55;
+}
+.lesson2-exercise-card .question-pinyin {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.lesson2-exercise-card .question-meaning {
+  font-size: 17px;
+  line-height: 1.6;
+}
+.lesson2-exercise-card .question-image {
+  width: 100% !important;
+  max-width: 390px !important;
+  height: auto !important;
+  object-fit: contain;
+}
+@media (max-width: 520px) {
+  .lesson2-exercise-card { padding: 16px; }
+  .lesson2-exercise-card h3 { font-size: 20px; }
+  .lesson2-exercise-card .question-pinyin { font-size: 17px; }
+  .lesson2-exercise-card .question-meaning { font-size: 16px; }
+  .lesson2-exercise-card .question-image { max-width: min(100%, 340px) !important; }
+}
+
+
+/* Nút quay lại bộ đề ở đầu trang làm bài — hiển thị ngay khi mở Đề 1 */
+.quiz-top-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin: 8px 0 16px;
+}
+#backToTestListTop {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 16px;
+  border: 1px solid #e3d1fb;
+  border-radius: 12px;
+  background: #f4edff;
+  color: #4a3865;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#backToTestListTop:hover {
+  background: #eadfff;
+}
+@media (max-width: 600px) {
+  #backToTestListTop {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+
+/* Nút quay lại ở đầu trang Ngữ âm Bài 1 */
+.lesson-return-nav {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto 18px;
+  width: min(100% - 32px, 1080px);
+}
+.lesson-return-nav .back-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 16px;
+  border: 1px solid #e3d1fb;
+  border-radius: 12px;
+  background: #f4edff;
+  color: #4a3865;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.lesson-return-nav .back-button:hover {
+  background: #eadfff;
+}
+@media (max-width: 600px) {
+  .lesson-return-nav .back-button { width: 100%; }
 }

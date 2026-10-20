@@ -4,19 +4,46 @@ let currentQuestions = [];
 let currentTestName = "Bài 1 - AI 小语，你好！";
 let quizSubmitted = false;
 
-function showHSK1Tests() {
-  const menu = document.getElementById("hsk1TestMenu");
-  const buttonsContainer = document.getElementById("hsk1TestButtons");
+const lessonAudioFiles = {
+  1: { pronunciation: "audio/yuyin.mp3", practice: "audio/tingdu-lianxi.mp3" },
+  2: { pronunciation: "audio/lesson2-yuyin.mp3", practice: "audio/lesson2-tingdu.mp3" },
+  3: { pronunciation: "audio/lesson3-yuyin.mp3", practice: "audio/lesson3-tingdu.mp3" },
+  4: { pronunciation: "audio/lesson4-yuyin.mp3", practice: "audio/lesson4-tingdu.mp3" },
+  5: { pronunciation: "audio/lesson5-yuyin.mp3", practice: "audio/lesson5-tingdu.mp3" },
+  6: { pronunciation: "audio/lesson6-yuyin.mp3", practice: "audio/lesson6-monitest.mp3" },
+  7: { pronunciation: "audio/lesson7-yuyin.mp3", practice: "audio/lesson7-monitest.mp3" },
+  8: { pronunciation: "audio/lesson8-yuyin.mp3", practice: "audio/lesson8-monitest.mp3" },
+  9: { pronunciation: "audio/lesson9-yuyin.mp3", practice: "audio/lesson9-monitest.mp3" },
+  10: { pronunciation: "audio/lesson10-yuyin.mp3", practice: "audio/lesson10-monitest.mp3" },
+  11: { pronunciation: "audio/lesson11-yuyin.mp3", practice: "audio/lesson11-monitest.mp3" },
+  12: { pronunciation: "audio/lesson12-yuyin.mp3", practice: "audio/lesson12-monitest.mp3" },
+  13: { pronunciation: "audio/lesson13-yuyin.mp3", practice: "audio/lesson13-monitest.mp3" },
+  14: { pronunciation: "audio/lesson14-yuyin.mp3", practice: "audio/lesson14-monitest.mp3" },
+  15: { pronunciation: "audio/lesson15-yuyin.mp3", practice: "audio/lesson15-monitest.mp3" }
+};
 
-  if (!menu || !buttonsContainer) {
+function getLessonNumber(testName) {
+  const match = String(testName || "").match(/^Bài\s+(\d+)/);
+  return match ? Number(match[1]) : 1;
+}
+
+function getLessonAudio(testName, kind) {
+  const lessonNumber = getLessonNumber(testName);
+  const files = lessonAudioFiles[lessonNumber] || lessonAudioFiles[1];
+  return files[kind] || lessonAudioFiles[1][kind];
+}
+
+function showHSK1Tests() {
+  const page = document.getElementById("hsk1TestPage");
+  const buttonsContainer = document.getElementById("hsk1TestButtons");
+  const levelsPage = document.getElementById("levelSelectionPage");
+  if (!page || !buttonsContainer || !levelsPage) {
     alert("Không tìm thấy khu vực chọn đề HSK 1.");
     return;
   }
 
   buttonsContainer.innerHTML = "";
-
   const testNames = Object.keys(window.hsk1Tests || {});
-
   if (testNames.length === 0) {
     alert("Chưa có bộ đề HSK 1 nào.");
     return;
@@ -26,17 +53,57 @@ function showHSK1Tests() {
     const button = document.createElement("button");
     button.type = "button";
     button.textContent = testName;
-
     button.addEventListener("click", () => {
-      menu.hidden = true;
+      page.hidden = true;
       openHSK1Lesson(testName);
     });
-
     buttonsContainer.appendChild(button);
   });
 
-  menu.hidden = false;
-  menu.scrollIntoView({ behavior: "smooth", block: "center" });
+  levelsPage.hidden = true;
+  page.hidden = false;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function backToLevels() {
+  const page = document.getElementById("hsk1TestPage");
+  const levelsPage = document.getElementById("levelSelectionPage");
+  if (page) page.hidden = true;
+  if (levelsPage) levelsPage.hidden = false;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// Điều hướng riêng cho màn hình Ngữ âm Bài 2; không thay đổi luồng Bài 1.
+function returnLesson2ToTestList() {
+  const lesson1 = document.getElementById("phoneticsLesson");
+  const lesson2 = document.getElementById("phoneticsLesson2");
+  const quiz = document.getElementById("quiz");
+  const audioDock = document.getElementById("sampleAudioDock");
+  const levelsPage = document.getElementById("levelSelectionPage");
+  const testPage = document.getElementById("hsk1TestPage");
+  if (lesson1) lesson1.hidden = true;
+  if (lesson2) lesson2.hidden = true;
+  if (quiz) quiz.hidden = true;
+  if (audioDock) audioDock.hidden = true;
+  if (levelsPage) levelsPage.hidden = true;
+  if (testPage) testPage.hidden = false;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function returnLesson2Home() {
+  const lesson1 = document.getElementById("phoneticsLesson");
+  const lesson2 = document.getElementById("phoneticsLesson2");
+  const quiz = document.getElementById("quiz");
+  const audioDock = document.getElementById("sampleAudioDock");
+  const testPage = document.getElementById("hsk1TestPage");
+  const levelsPage = document.getElementById("levelSelectionPage");
+  if (lesson1) lesson1.hidden = true;
+  if (lesson2) lesson2.hidden = true;
+  if (quiz) quiz.hidden = true;
+  if (audioDock) audioDock.hidden = true;
+  if (testPage) testPage.hidden = true;
+  if (levelsPage) levelsPage.hidden = false;
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function setDockAudio(source, label) {
@@ -50,18 +117,88 @@ function setDockAudio(source, label) {
   if (labelEl && label) labelEl.textContent = label;
 }
 
+
 function openHSK1Lesson(testName = "Bài 1 - AI 小语，你好！") {
   currentTestName = testName;
   const lesson = document.getElementById("phoneticsLesson");
+  const lesson2 = document.getElementById("phoneticsLesson2");
   const quiz = document.getElementById("quiz");
-  if (lesson) lesson.hidden = false;
-  if (quiz) quiz.hidden = true;
   const audioDock = document.getElementById("sampleAudioDock");
-  if (audioDock) audioDock.hidden = false;
-  setDockAudio("audio/yuyin.mp3", "语音 · Nghe mẫu");
-  showLessonPage(0, false);
-  if (lesson) lesson.scrollIntoView({ behavior: "smooth", block: "start" });
+  const lessonNumber = getLessonNumber(testName);
+
+  // Bài 1: giữ nguyên giao diện và cách hoạt động hiện tại.
+  if (lessonNumber === 1) {
+    if (lesson) lesson.hidden = false;
+    if (lesson2) lesson2.hidden = true;
+    if (quiz) quiz.hidden = true;
+    if (audioDock) audioDock.hidden = false;
+    const eyebrow = document.getElementById("phoneticsLessonEyebrow");
+    if (eyebrow) eyebrow.textContent = `HSK 1 · Bài ${lessonNumber}`;
+    setDockAudio(getLessonAudio(testName, "pronunciation"), "语音 · Nghe mẫu Bài 1");
+    showLessonPage(0, false);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+
+  // Bài 2: ảnh trang sách theo thứ tự, sau đó mới vào bài tập.
+  if (lessonNumber === 2) {
+    if (lesson) lesson.hidden = true;
+    if (lesson2) lesson2.hidden = false;
+    if (quiz) quiz.hidden = true;
+    if (audioDock) audioDock.hidden = true;
+    resetLesson2BookPages();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+
+  if (lesson) lesson.hidden = true;
+  if (lesson2) lesson2.hidden = true;
+  if (quiz) quiz.hidden = false;
+  if (audioDock) audioDock.hidden = true;
+  startHSK1(testName);
 }
+
+let activeLesson2BookPage = 0;
+function showLesson2BookPage(index) {
+  const img = document.getElementById("lesson2BookPage");
+  const counter = document.getElementById("lesson2PageCounter");
+  const prev = document.getElementById("lesson2PrevPage");
+  const next = document.getElementById("lesson2NextPage");
+  const dots = [...document.querySelectorAll("#lesson2PageDots button")];
+  if (!img || !dots.length) return;
+  activeLesson2BookPage = Math.max(0, Math.min(index, 2));
+  img.src = `images/lesson2_pages/page-${activeLesson2BookPage + 1}.jpg`;
+  img.alt = `Trang ${activeLesson2BookPage + 5} sách bài tập HSK 1, phần Ngữ âm Bài 2`;
+  if (counter) counter.textContent = `Trang sách ${activeLesson2BookPage + 1} / 3`;
+  if (prev) prev.disabled = activeLesson2BookPage === 0;
+  if (next) next.disabled = activeLesson2BookPage === 2;
+  dots.forEach((button, i) => {
+    button.classList.toggle("active", i === activeLesson2BookPage);
+    button.setAttribute("aria-current", i === activeLesson2BookPage ? "page" : "false");
+  });
+}
+function resetLesson2BookPages() { showLesson2BookPage(0); }
+function initLesson2BookControls() {
+  const prev = document.getElementById("lesson2PrevPage");
+  const next = document.getElementById("lesson2NextPage");
+  const start = document.getElementById("lesson2StartPractice");
+  if (prev) prev.addEventListener("click", () => showLesson2BookPage(activeLesson2BookPage - 1));
+  if (next) next.addEventListener("click", () => showLesson2BookPage(activeLesson2BookPage + 1));
+  document.querySelectorAll("#lesson2PageDots button").forEach(button => {
+    button.addEventListener("click", () => showLesson2BookPage(Number(button.dataset.bookPage)));
+  });
+  if (start) start.addEventListener("click", () => {
+    const lesson2 = document.getElementById("phoneticsLesson2");
+    const quiz = document.getElementById("quiz");
+    const audioDock = document.getElementById("sampleAudioDock");
+    if (lesson2) lesson2.hidden = true;
+    if (quiz) quiz.hidden = false;
+    if (audioDock) audioDock.hidden = true;
+    startHSK1(currentTestName);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+document.addEventListener("DOMContentLoaded", initLesson2BookControls);
 
 let activeLessonPage = 0;
 const lessonPageTitles = [
@@ -148,15 +285,18 @@ function startHSK1(testName = "Bài 1 - AI 小语，你好！") {
   const testAudio = document.getElementById("testAudio");
 
   quiz.hidden = false;
+  // Luôn hiển thị rõ tên bộ đề đang làm để người học không bị nhầm bài.
+  const quizTitle = document.getElementById("quizTitle");
+  if (quizTitle) quizTitle.textContent = `HSK 1 · ${currentTestName}`;
   container.innerHTML = "";
   console.log("Số thẻ trước khi tạo:", container.querySelectorAll(".question-card").length);
 
   if (testAudio) {
-    testAudio.src = "audio/tingdu-lianxi.mp3";
+    testAudio.src = getLessonAudio(testName, "practice");
     testAudio.load();
   }
   if (audioDock) audioDock.hidden = false;
-  setDockAudio("audio/tingdu-lianxi.mp3", "听读练 · Audio bài tập");
+  setDockAudio(getLessonAudio(testName, "practice"), "听读练 · Audio bài tập");
 
   document.getElementById("result").textContent = "";
   const questionNavigation = document.getElementById("questionNavigation");
@@ -164,17 +304,20 @@ function startHSK1(testName = "Bài 1 - AI 小语，你好！") {
   const questionControls = document.querySelector(".question-controls");
   if (questionControls) questionControls.hidden = false;
   document.getElementById("submitBtn").hidden = false;
-  document.getElementById("backBtn").hidden = true;
+  // Cho phép quay lại danh sách bộ đề ngay cả khi chưa nộp bài.
+  document.getElementById("backBtn").hidden = false;
+  document.getElementById("backBtn").textContent = "← Quay lại danh sách 15 bộ đề";
   document.getElementById("redoBtn").hidden = true;
 
   currentQuestions.forEach((item, index) => {
     const card = document.createElement("div");
     card.className = "question-card";
+    if (String(testName).includes("Bài 2")) card.classList.add("lesson2-exercise-card");
     card.dataset.index = index;
 card.hidden = true;
     const title = document.createElement("h3");
     // Show only the section number, not the global question number (avoids "9. 2." / "51. 5.").
-    title.textContent = `${item.sectionNumber || ""}. ${item.question}`;
+    title.textContent = `${item.displaySection || item.sectionNumber || ""}. ${item.question}`;
     card.appendChild(title);
 
     // Show Pinyin and Vietnamese meaning immediately below the instruction, before image/answer controls.
@@ -200,7 +343,7 @@ card.hidden = true;
       questionImage.loading = "lazy";
       questionImage.style.display = "block";
       questionImage.style.width = "100%";
-      questionImage.style.maxWidth = "560px";
+      questionImage.style.maxWidth = String(testName).includes("Bài 2") ? "390px" : "560px";
       questionImage.style.height = "auto";
       questionImage.style.margin = "12px auto";
       questionImage.style.borderRadius = "8px";
@@ -277,23 +420,30 @@ card.hidden = true;
     } else {
       const options = Array.isArray(item.options) ? item.options : [];
 
-      options.forEach((option, optionIndex) => {
-        const label = document.createElement("label");
-        label.className = "answer-option";
+      if (options.length > 0) {
+        options.forEach((option, optionIndex) => {
+          const label = document.createElement("label");
+          label.className = "answer-option";
 
-        const radio = document.createElement("input");
-        radio.type = "radio";
-        radio.name = `question-${index}`;
-        radio.value = optionIndex;
-        radio.addEventListener("change", updateProgress);
+          const radio = document.createElement("input");
+          radio.type = "radio";
+          radio.name = `question-${index}`;
+          radio.value = optionIndex;
+          radio.addEventListener("change", updateProgress);
 
-        const text = document.createElement("span");
-        text.textContent = `${String.fromCharCode(65 + optionIndex)}. ${option}`;
+          const text = document.createElement("span");
+          text.textContent = `${String.fromCharCode(65 + optionIndex)}. ${option}`;
 
-        label.appendChild(radio);
-        label.appendChild(text);
-        card.appendChild(label);
-      });
+          label.appendChild(radio);
+          label.appendChild(text);
+          card.appendChild(label);
+        });
+      } else if (item.type === "multiple-choice" || item.type === "reading") {
+        const notice = document.createElement("p");
+        notice.className = "question-data-warning";
+        notice.textContent = "Câu này chưa có đủ lựa chọn trong dữ liệu website; tạm thời chưa thể chọn hoặc chấm điểm. Cần đối chiếu sách gốc.";
+        card.appendChild(notice);
+      }
     }
 
  container.appendChild(card);
@@ -307,6 +457,19 @@ card.hidden = true;
   quiz.scrollIntoView({ behavior: "smooth" });
 }
 
+
+function isScoredQuestion(item) {
+  if (!item || item.type === "reading" || item.type === "image-gallery") return false;
+  if (item.type === "fill-in") {
+    return (Array.isArray(item.answers) && item.answers.length > 0) ||
+      (typeof item.answerText === "string" && item.answerText.trim() !== "");
+  }
+  if (item.type === "multiple-choice") {
+    return Array.isArray(item.options) && item.options.length > 0 &&
+      Number.isInteger(item.answer) && item.answer >= 0 && item.answer < item.options.length;
+  }
+  return false;
+}
 
 function isAnswered(index) {
   const item = currentQuestions[index];
@@ -431,9 +594,7 @@ function updateQuestionNavigation() {
 function updateProgress() {
   const scoredQuestions = currentQuestions
     .map((item, index) => ({ item, index }))
-    .filter(({ item }) =>
-      item.type !== "reading" && item.type !== "image-gallery"
-    );
+    .filter(({ item }) => isScoredQuestion(item));
 
   const total = scoredQuestions.length;
   const answered = scoredQuestions.filter(({ index }) =>
@@ -458,11 +619,8 @@ function submitQuiz() {
   if (quizSubmitted) return;
 
   const unanswered = currentQuestions.filter(
-  (item, index) =>
-    item.type !== "reading" &&
-    item.type !== "image-gallery" &&
-    !isAnswered(index)
-).length;
+    (item, index) => isScoredQuestion(item) && !isAnswered(index)
+  ).length;
 
   if (unanswered > 0) {
     const confirmSubmit = confirm(
@@ -493,6 +651,15 @@ function submitQuiz() {
         item.type === "reading"
           ? "Phần luyện đọc: hãy nghe audio và tự đọc to các âm tiết."
           : "Phần hình ảnh từ vựng: hãy nghe, nhắc lại âm tiết và đọc to.";
+      card.appendChild(note);
+      card.hidden = false;
+      return;
+    }
+
+    if (!isScoredQuestion(item)) {
+      const note = document.createElement("p");
+      note.className = "feedback feedback-neutral";
+      note.textContent = "Chưa chấm điểm: câu hỏi hoặc đáp án cần được đối chiếu với tài liệu gốc.";
       card.appendChild(note);
       card.hidden = false;
       return;
@@ -602,12 +769,21 @@ function submitQuiz() {
 }
 
 function backToHome() {
+  // Khi đang làm bài, xác nhận trước khi rời đi để tránh mất câu trả lời.
+  if (!quizSubmitted) {
+    const hasAnswers = document.querySelector("#questions input:checked, #questions input:not([type=radio]):not([type=checkbox])[value], #questions textarea, #questions select");
+    const shouldLeave = confirm(hasAnswers
+      ? "Bạn đang làm bài. Nếu quay lại danh sách, câu trả lời hiện tại sẽ không được lưu. Bạn có muốn tiếp tục?"
+      : "Bạn có muốn quay lại danh sách 15 bộ đề không?");
+    if (!shouldLeave) return;
+  }
   document.getElementById("quiz").hidden = true;
   const lesson = document.getElementById("phoneticsLesson");
   if (lesson) lesson.hidden = true;
   const audioDock = document.getElementById("sampleAudioDock");
   if (audioDock) audioDock.hidden = true;
+  const levelsPage = document.getElementById("levelSelectionPage");
+  if (levelsPage) levelsPage.hidden = true;
   document.getElementById("result").textContent = "";
-
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  showHSK1Tests();
 }

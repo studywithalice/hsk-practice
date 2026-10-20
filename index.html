@@ -5,43 +5,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HSK Practice - Luyện thi HSK 3.0</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=4">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico?v=6" sizes="any" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=6">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=6">
+  <link rel="icon" type="image/png" sizes="128x128" href="images/favicon-128x128.png?v=6">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=6">
 </head>
-<body>
+<body id="top">
 
   <header>
-    <h1>HSK Practice</h1>
+    <a class="site-brand" href="#top" aria-label="HSK Practice - về đầu trang" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
+      <img src="images/logo-ngang.png" alt="Study with Alice" class="site-logo">
+    </a>
     <p>你的中文学习之旅，从这里开始！</p>
   </header>
 
   <main>
-    <h2>Chọn cấp độ HSK</h2>
-    <p>Chào mừng bạn đến với website luyện thi tiếng Trung.</p>
+    <section id="levelSelectionPage">
+      <h2>Chọn cấp độ HSK</h2>
+      <p>Chào mừng bạn đến với website luyện thi tiếng Trung.</p>
+      <section class="levels">
+        <button type="button" onclick="showHSK1Tests()">HSK 1</button>
+        <button type="button" disabled>HSK 2</button>
+        <button type="button" disabled>HSK 3</button>
+        <button type="button" disabled>HSK 4</button>
+        <button type="button" disabled>HSK 5</button>
+        <button type="button" disabled>HSK 6</button>
+      </section>
+    </section>
 
-    
-
-<section class="levels">
-  <button onclick="showHSK1Tests()">HSK 1</button>
-
-<div id="hsk1TestMenu" class="test-menu" hidden>
-  <h3>Chọn bộ đề HSK 1</h3>
-  <div id="hsk1TestButtons" class="test-buttons"></div>
-</div>
-
-  <button disabled>HSK 2</button>
-  <button disabled>HSK 3</button>
-  <button disabled>HSK 4</button>
-  <button disabled>HSK 5</button>
-  <button disabled>HSK 6</button>
-</section>
+    <section id="hsk1TestPage" class="test-menu test-page" hidden>
+      <button type="button" class="back-button" onclick="backToLevels()">← Quay lại chọn cấp độ</button>
+      <h2>Chọn bộ đề HSK 1</h2>
+      <p>Chọn một trong 15 bài để bắt đầu luyện tập.</p>
+      <div id="hsk1TestButtons" class="test-buttons"></div>
+    </section>
 
 
 <section id="phoneticsLesson" class="lesson-panel" hidden>
+  <nav class="lesson-return-nav" aria-label="Quay lại danh sách bộ đề">
+    <button type="button" class="back-button" onclick="backToHome()">← Quay lại danh sách 15 bộ đề</button>
+  </nav>
   <div class="lesson-hero">
-    <p class="eyebrow">HSK 1 · Bài 1</p>
+    <p id="phoneticsLessonEyebrow" class="eyebrow">HSK 1 · Bài 1</p>
     <h2>一、语音 · Ngữ âm</h2>
     <p>Nghe mẫu trước, sau đó học từng kiến thức cùng ví dụ tương ứng.</p>
   </div>
+
+
+
 
   <section class="audio-first-card" aria-labelledby="sampleAudioTitle">
     <div class="audio-first-copy">
@@ -175,15 +189,65 @@
   </section>
 </section>
 
+<section id="phoneticsLesson2" class="lesson2-book-viewer" hidden aria-label="Ngữ âm Bài 2 theo sách bài tập">
+  <nav class="lesson2-return-nav" aria-label="Điều hướng Bài 2">
+    <button type="button" onclick="returnLesson2ToTestList()">← Quay lại bộ đề</button>
+    <button type="button" onclick="returnLesson2Home()">⌂ Trở về trang chủ</button>
+  </nav>
+  <div class="lesson2-book-heading">
+    <p class="eyebrow">HSK 1 · BÀI 2</p>
+    <h2>第二课：我叫李文</h2>
+    <p>一、语音 · Ngữ âm</p>
+  </div>
+  <section class="lesson2-audio-block" aria-label="Audio ngữ âm Bài 2">
+    <div><strong>语音 · Ngữ âm</strong><p>Nghe toàn bộ file Ngữ âm Bài 2 trong khi xem nội dung sách.</p></div>
+    <audio controls preload="metadata" src="audio/lesson2-yuyin.mp3">Trình duyệt không hỗ trợ phát audio.</audio>
+  </section>
+
+  <section class="lesson2-book-section" aria-labelledby="lesson2-part1-title">
+    <h3 id="lesson2-part1-title"><span>1</span> 声母和韵母（2）· Thanh mẫu và vận mẫu</h3>
+    <figure class="lesson2-page-frame">
+      <img src="images/lesson2_pages/page-1.jpg" alt="Bài 2, phần 1: thanh mẫu j q x, bảng vận mẫu và ví dụ đọc theo" loading="eager">
+    </figure>
+    <figure class="lesson2-page-frame">
+      <img src="images/lesson2_pages/page-1b.jpg" alt="Bài 2, phần 1 tiếp: các thẻ từ 鸡、七、写、请、再见、谢谢、星期、高兴" loading="lazy">
+    </figure>
+  </section>
+
+  <section class="lesson2-book-section" aria-labelledby="lesson2-part2-title">
+    <h3 id="lesson2-part2-title"><span>2</span> 拼写规则 · Quy tắc viết phiên âm</h3>
+    <figure class="lesson2-page-frame">
+      <img src="images/lesson2_pages/page-2.jpg" alt="Bài 2, phần 2: quy tắc viết i, u, ü; quy tắc ghép j q x với ü và ví dụ" loading="lazy">
+    </figure>
+    <figure class="lesson2-page-frame">
+      <img src="images/lesson2_pages/page-3.jpg" alt="Trang sách Bài 2: quy tắc ghép j q x với ü, cách viết iou và iu, ví dụ đọc theo" loading="lazy">
+    </figure>
+  </section>
+
+  <section class="lesson2-practice-cta">
+    <h3>练习 · Bài tập</h3>
+    <p>Tiếp tục làm phần bài tập Bài 2 bằng giao diện tương tác như Bài 1.</p>
+    <button type="button" class="primary-button" id="lesson2StartPractice">Bắt đầu bài tập →</button>
+  </section>
+</section>
+
+
 <div id="sampleAudioDock" class="sample-audio-dock" aria-label="Trình phát audio" hidden><span id="sampleAudioDockLabel">语音 · Nghe mẫu</span><div id="sampleAudioDockSlot"></div></div>
 
 <section id="quiz" class="quiz" hidden>
-  <h2>HSK 1 - Bài luyện tập</h2>
+  <nav class="quiz-return-nav" aria-label="Điều hướng bài tập">
+    <button type="button" class="back-button" onclick="backToHome()">← Quay lại danh sách 15 bộ đề</button>
+  </nav>
+  <h2 id="quizTitle">HSK 1 · Chọn bộ đề</h2>
   <div class="test-audio">
   <p>🎧 Audio luyện tập</p>
   <audio id="testAudio" controls preload="none">
     Trình duyệt không hỗ trợ phát audio.
   </audio>
+</div>
+
+<div class="quiz-top-actions">
+  <button id="backToTestListTop" type="button" onclick="backToHome()">← Quay lại danh sách 15 bộ đề</button>
 </div>
 
 <div class="quiz-progress">
@@ -198,6 +262,8 @@
 </div>
 
 <div id="questionNavigation" class="question-navigation"></div>
+
+
 
 <div class="question-controls">
   <button id="prevBtn" type="button" onclick="changeQuestion(-1)">
@@ -216,14 +282,14 @@
   <button id="submitBtn" onclick="submitQuiz()">
     Nộp bài
   </button>
-  <button id="redoBtn" onclick="startHSK1()" hidden>
+  <button id="redoBtn" onclick="startHSK1(currentTestName)" hidden>
   Làm lại bài
 </button>
 
   <div id="result" aria-live="polite"></div>
 
   <button id="backBtn" onclick="backToHome()" hidden>
-    Quay lại trang chủ
+    ← Quay lại danh sách 15 bộ đề
   </button>
 </section>
 
@@ -237,6 +303,8 @@
   <footer>
     <p>HSK Practice · Learn Chinese step by step</p>
   </footer>
+
+  <button id="backToTopBtn" class="back-to-top" type="button" aria-label="Trở về đầu trang" title="Trở về đầu trang" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑ <span>Đầu trang</span></button>
 
  <script src="questions.js"></script>
 <script src="script.js"></script>
