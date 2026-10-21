@@ -1158,30 +1158,25 @@ body:has(#phoneticsLesson2:not([hidden])) { padding-bottom:76px; }
 }
 
 
-/* Nút quay lại ở đầu trang Ngữ âm Bài 1 */
-.lesson-return-nav {
-  display: flex;
-  justify-content: flex-start;
-  margin: 0 auto 18px;
-  width: min(100% - 32px, 1080px);
+/* Lesson 1 textbook references: keep the full page visible and readable. */
+.book-reference-figure {
+  width: 100%;
+  margin: 14px 0 24px;
+  padding: clamp(6px, 1.2vw, 14px);
+  overflow: hidden;
+  border: 1px solid #eee5f6;
+  border-radius: 16px;
+  background: #fff;
 }
-.lesson-return-nav .back-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 42px;
-  padding: 10px 16px;
-  border: 1px solid #e3d1fb;
-  border-radius: 12px;
-  background: #f4edff;
-  color: #4a3865;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
+.book-reference-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
 }
-.lesson-return-nav .back-button:hover {
-  background: #eadfff;
-}
-@media (max-width: 600px) {
-  .lesson-return-nav .back-button { width: 100%; }
+@media (max-width: 640px) {
+  .book-reference-figure { margin: 10px 0 18px; padding: 4px; border-radius: 10px; }
 }

@@ -45,9 +45,6 @@
 
 
 <section id="phoneticsLesson" class="lesson-panel" hidden>
-  <nav class="lesson-return-nav" aria-label="Quay lại danh sách bộ đề">
-    <button type="button" class="back-button" onclick="backToHome()">← Quay lại danh sách 15 bộ đề</button>
-  </nav>
   <div class="lesson-hero">
     <p id="phoneticsLessonEyebrow" class="eyebrow">HSK 1 · Bài 1</p>
     <h2>一、语音 · Ngữ âm</h2>
@@ -57,17 +54,7 @@
 
 
 
-  <section class="audio-first-card" aria-labelledby="sampleAudioTitle">
-    <div class="audio-first-copy">
-      <span class="audio-kicker">BƯỚC 1 · NGHE TRƯỚC</span>
-      <h3 id="sampleAudioTitle">Nghe mẫu · 听录音</h3>
-      <p>Nghe mẫu Ngữ âm trước khi học từng phần.</p>
-    </div>
-    <audio controls preload="metadata" src="audio/yuyin.mp3">Trình duyệt không hỗ trợ phát audio.</audio>
-  </section>
-
   <div class="lesson-page-heading">
-    <span class="eyebrow">BƯỚC 2 · HỌC TỪNG PHẦN</span>
     <h3 id="lessonPageTitle">Trang 1 · Âm tiết tiếng Trung</h3>
     <p id="lessonPageDescription">Nắm khái niệm rồi xem ví dụ ngay bên dưới.</p>
   </div>
@@ -79,16 +66,9 @@
 
   <div class="lesson-pages">
     <article class="lesson-page active" data-page="0">
-      <section class="knowledge-card">
-        <h4>Kiến thức · 汉语音节</h4>
-        <p>Mỗi chữ Hán thường tương ứng với một âm tiết. Một âm tiết tiếng Trung thường gồm <strong>thanh mẫu</strong>, <strong>vận mẫu</strong> và <strong>thanh điệu</strong>; đôi khi chỉ gồm vận mẫu và thanh điệu.</p>
-        <div class="syllable-parts" aria-label="Các thành phần của âm tiết">
-          <div><span>声母</span><strong>Thanh mẫu</strong><small>Âm đầu</small></div><span class="plus">+</span>
-          <div><span>韵母</span><strong>Vận mẫu</strong><small>Phần vần</small></div><span class="plus">+</span>
-          <div><span>声调</span><strong>Thanh điệu</strong><small>Dấu thanh</small></div>
-        </div>
-        <p class="knowledge-note">Lưu ý: có âm tiết không có thanh mẫu, ví dụ các âm tiết bắt đầu trực tiếp bằng vận mẫu.</p>
-      </section>
+      <figure class="book-reference-figure">
+        <img class="book-reference-image" src="images/lesson1_phonetics/syllable.jpg" alt="Giáo trình: 汉语音节 — Âm tiết tiếng Trung Quốc" loading="lazy">
+      </figure>
       <section class="example-card">
         <span class="example-label">VÍ DỤ 1 · ÂM TIẾT</span>
         <h4>Thanh mẫu + vận mẫu + thanh điệu</h4>
@@ -112,37 +92,19 @@
     </article>
 
     <article class="lesson-page" data-page="1" hidden>
-      <section class="knowledge-card">
-        <h4>Kiến thức · 声母和韵母</h4>
-        <p><strong>Thanh mẫu</strong> là âm đầu; <strong>vận mẫu</strong> là phần vần. Hai phần kết hợp để tạo thành âm tiết, nhưng không phải mọi thanh mẫu đều ghép được với mọi vận mẫu.</p>
-        <div class="initial-final-table" role="table" aria-label="Bảng thanh mẫu và vận mẫu theo giáo trình">
-          <div class="initial-final-row initial-final-head" role="row"><strong>声母 · Thanh mẫu</strong><strong>韵母 · Vận mẫu</strong></div>
-          <div class="initial-final-row" role="row"><span>b　p　m　f</span><span>a　o　e　i [i]　u　er</span></div>
-          <div class="initial-final-row" role="row"><span>d　t　n　l</span><span>ai　ei　ao　ou</span></div>
-          <div class="initial-final-row" role="row"><span>g　k　h</span><span>an　en</span></div>
-          <div class="initial-final-row" role="row"><span></span><span>ang　eng　ong</span></div>
-        </div>
-        <ul><li>Vận mẫu <strong>er</strong> có thể đứng độc lập thành một âm tiết.</li><li>Theo bảng trong giáo trình, thanh mẫu <strong>n, l</strong> có thể ghép với <strong>ü</strong> và các vận mẫu bắt đầu bằng <strong>ü</strong>.</li></ul>
-        <section class="example-card compact-example">
-          <span class="example-label">VÍ DỤ ĐI KÈM · BẢNG THANH MẪU VÀ VẬN MẪU</span>
-          <p>Đọc lần lượt các thanh mẫu và vận mẫu trong bảng, sau đó đọc lại các quy tắc ghép ngay phía trên. Vận mẫu <strong>er</strong> đứng độc lập thành một âm tiết.</p>
-        </section>
-      </section>
+      <figure class="book-reference-figure">
+        <img class="book-reference-image" src="images/lesson1_phonetics/initials-finals.jpg" alt="Giáo trình: 声母和韵母 — Thanh mẫu và vận mẫu" loading="lazy">
+      </figure>
 
     </article>
 
     <article class="lesson-page" data-page="2" hidden>
-      <section class="knowledge-card">
-        <h4>Kiến thức · 四声</h4>
-        <p>Tiếng Trung có bốn thanh điệu cơ bản. Khi phát âm, cần chú ý đường đi của giọng.</p>
-        <div class="tone-grid">
-          <div class="tone-card"><strong>第一声</strong><span class="tone-mark">ˉ</span><b>Thanh 1</b><small>55 · cao và ngang</small></div>
-          <div class="tone-card"><strong>第二声</strong><span class="tone-mark">ˊ</span><b>Thanh 2</b><small>35 · đi lên</small></div>
-          <div class="tone-card"><strong>第三声</strong><span class="tone-mark">ˇ</span><b>Thanh 3</b><small>214 · xuống rồi lên</small></div>
-          <div class="tone-card"><strong>第四声</strong><span class="tone-mark">ˋ</span><b>Thanh 4</b><small>51 · đi xuống</small></div>
-        </div>
-        <p>Trong Pinyin, dấu thanh được đặt trên nguyên âm chính của vận mẫu. Thanh điệu khác nhau có thể làm thay đổi ý nghĩa.</p>
-      </section>
+      <figure class="book-reference-figure">
+        <img class="book-reference-image" src="images/lesson1_phonetics/tones-explanation.jpg" alt="Giáo trình: 声调 — Giải thích bốn thanh điệu tiếng Trung" loading="lazy">
+      </figure>
+      <figure class="book-reference-figure">
+        <img class="book-reference-image" src="images/lesson1_phonetics/tone-contours.jpg" alt="Sơ đồ đường nét của thanh 1, thanh 2, thanh 3 và thanh 4" loading="lazy">
+      </figure>
       <section class="example-card">
         <span class="example-label">VÍ DỤ ĐỌC · THANH ĐIỆU</span>
         <h4>Nghe mẫu, đọc từng cột theo bốn thanh điệu</h4>
@@ -246,10 +208,6 @@
   </audio>
 </div>
 
-<div class="quiz-top-actions">
-  <button id="backToTestListTop" type="button" onclick="backToHome()">← Quay lại danh sách 15 bộ đề</button>
-</div>
-
 <div class="quiz-progress">
   <div class="progress-info">
     <span id="progressText">Đã trả lời 0 câu</span>
@@ -263,7 +221,9 @@
 
 <div id="questionNavigation" class="question-navigation"></div>
 
-
+<div class="quiz-top-actions">
+  <button id="backToTestListTop" type="button" onclick="backToHome()">← Quay lại danh sách 15 bộ đề</button>
+</div>
 
 <div class="question-controls">
   <button id="prevBtn" type="button" onclick="changeQuestion(-1)">
