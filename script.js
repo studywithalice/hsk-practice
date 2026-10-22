@@ -106,17 +106,37 @@ function returnLesson2Home() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-function setDockAudio(source, label) {
-  const audio = document.querySelector("#sampleAudioDockSlot audio");
-  const labelEl = document.getElementById("sampleAudioDockLabel");
-  if (audio && source && !audio.src.endsWith(source)) {
-    audio.pause();
-    audio.src = source;
-    audio.load();
-  }
-  if (labelEl && label) labelEl.textContent = label;
-}
 
+function setDockAudio(source, label) {
+  const slot = document.getElementById("sampleAudioDockSlot");
+  const labelEl = document.getElementById("sampleAudioDockLabel");
+
+  if (!slot) return;
+
+  let audio = slot.querySelector("audio");
+
+  if (!audio) {
+    audio = document.createElement("audio");
+    audio.controls = true;
+    audio.preload = "metadata";
+    audio.style.width = "100%";
+    slot.appendChild(audio);
+  }
+
+  if (source) {
+    const currentSource = audio.getAttribute("src");
+
+    if (currentSource !== source) {
+      audio.pause();
+      audio.src = source;
+      audio.load();
+    }
+  }
+
+  if (labelEl && label) {
+    labelEl.textContent = label;
+  }
+}
 
 function openHSK1Lesson(testName = "Bài 1 - AI 小语，你好！") {
   currentTestName = testName;
@@ -198,19 +218,49 @@ function initLesson2BookControls() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 }
-document.addEventListener("DOMContentLoaded", initLesson2BookControls);
 
 let activeLessonPage = 0;
 const lessonPageTitles = [
   "Trang 1 · Âm tiết tiếng Trung",
   "Trang 2 · Thanh mẫu và vận mẫu",
-  "Trang 3 · Bốn thanh điệu"
+  "Trang 3 · Thanh điệu"
 ];
 const lessonPageDescriptions = [
-  "Hiểu cấu tạo của một âm tiết và xem ví dụ ngay bên dưới.",
-  "Phân biệt âm đầu với phần vần, sau đó quan sát ví dụ trong giáo trình.",
-  "Nắm đường đi của bốn thanh điệu và so sánh ví dụ bā, bá, bǎ, bà."
+  "Nắm khái niệm rồi xem ví dụ ngay bên dưới.",
+  "Quan sát thanh mẫu, vận mẫu và luyện đọc các âm tiết.",
+  "Nhận biết bốn thanh điệu và luyện phát âm."
 ];
+
+document.addEventListener("DOMContentLoaded", () => {
+  const sampleAudioSlot = document.getElementById("sampleAudioDockSlot");
+  const sampleAudioDock = document.getElementById("sampleAudioDock");
+
+  if (sampleAudioSlot && !sampleAudioSlot.querySelector("audio")) {
+    const audio = document.createElement("audio");
+    audio.controls = true;
+    audio.preload = "metadata";
+    audio.style.width = "100%";
+    sampleAudioSlot.appendChild(audio);
+  }
+
+  if (sampleAudioDock) sampleAudioDock.hidden = true;
+
+  document.querySelectorAll(".lesson-page-dot").forEach(button => {
+    button.addEventListener("click", () => {
+      showLessonPage(Number(button.dataset.lessonPage));
+    });
+  });
+
+  document.getElementById("previousLessonPage")
+    ?.addEventListener("click", () => showLessonPage(activeLessonPage - 1));
+
+  document.getElementById("nextLessonPage")
+    ?.addEventListener("click", () => showLessonPage(activeLessonPage + 1));
+
+  initLesson2BookControls();
+  showLessonPage(0, false);
+});
+
 
 function showLessonPage(index, scroll = true) {
   const pages = [...document.querySelectorAll(".lesson-page")];
@@ -247,19 +297,11 @@ function showLessonPage(index, scroll = true) {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const sampleAudio = document.querySelector(".audio-first-card audio");
-  const sampleAudioSlot = document.getElementById("sampleAudioDockSlot");
-  if (sampleAudio && sampleAudioSlot) sampleAudioSlot.appendChild(sampleAudio);
-  const sampleAudioDock = document.getElementById("sampleAudioDock");
-  if (sampleAudioDock) sampleAudioDock.hidden = true;
-  document.querySelectorAll(".lesson-page-dot").forEach(button => {
-    button.addEventListener("click", () => showLessonPage(Number(button.dataset.lessonPage)));
-  });
-  document.getElementById("previousLessonPage")?.addEventListener("click", () => showLessonPage(activeLessonPage - 1));
-  document.getElementById("nextLessonPage")?.addEventListener("click", () => showLessonPage(activeLessonPage + 1));
-  showLessonPage(0, false);
-});
+
+
+
+
+
 
 function startHSK1(testName = "Bài 1 - AI 小语，你好！") {
   currentTestName = testName;
@@ -268,6 +310,8 @@ function startHSK1(testName = "Bài 1 - AI 小语，你好！") {
     .filter(item => item.type !== "image-gallery");
   const lesson = document.getElementById("phoneticsLesson");
   if (lesson) lesson.hidden = true;
+  const lesson2 = document.getElementById("phoneticsLesson2");
+  if (lesson2) lesson2.hidden = true;
   const audioDock = document.getElementById("sampleAudioDock");
   if (audioDock) audioDock.hidden = true;
   
