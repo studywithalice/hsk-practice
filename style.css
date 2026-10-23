@@ -1180,3 +1180,58 @@ body:has(#phoneticsLesson2:not([hidden])) { padding-bottom:76px; }
 @media (max-width: 640px) {
   .book-reference-figure { margin: 10px 0 18px; padding: 4px; border-radius: 10px; }
 }
+
+
+/* Bài 3: nội dung ngữ âm theo sách */
+.lesson3-table {
+  display: grid;
+  grid-template-columns: minmax(110px, 0.8fr) minmax(220px, 1.5fr);
+  border: 1px solid #e9b0a4;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 18px 0;
+}
+.lesson3-table-head {
+  background: #e98f7b;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  padding: 12px;
+}
+.lesson3-table-cell {
+  padding: 16px;
+  border-top: 1px solid #e9b0a4;
+  line-height: 2;
+}
+.lesson3-table-cell:nth-child(4) { border-left: 1px solid #e9b0a4; }
+.lesson3-vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+.lesson3-vocab-grid > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 18px 8px;
+  border: 1px solid #efb8ad;
+  border-radius: 14px;
+  background: #fffaf8;
+  text-align: center;
+}
+.lesson3-vocab-grid b { font-size: 1.05rem; }
+.lesson3-vocab-grid span { font-size: 1.35rem; }
+@media (max-width: 600px) {
+  .lesson3-vocab-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lesson3-table { grid-template-columns: 105px minmax(0, 1fr); font-size: 0.92rem; }
+  .lesson3-table-cell { padding: 10px; }
+}
+
+
+/* Bài 3: hiển thị nguyên bản 4 ảnh Ngữ âm do người dùng cung cấp */
+.lesson3-source-page { margin: 18px auto; width: 100%; max-width: 1000px; text-align: center; }
+.lesson3-source-page img { display: block; width: 100%; height: auto; object-fit: contain; border-radius: 4px; }
+.lesson3-source-images > p { line-height: 1.6; }

@@ -1,0 +1,7 @@
+BÀI 3 – BẢN CẬP NHẬT AUDIO CỐ ĐỊNH VÀ HÌNH PHẦN 4
+
+Trong thư mục dự án hsk-practice-github, giải nén ZIP này và chép đè các tệp index.html, script.js, questions.js, style.css; đồng thời chép thư mục images/lesson3_pages và images/lesson3_dialogue vào dự án, giữ nguyên cấu trúc thư mục.
+
+Đã cập nhật: audio Ngữ âm Bài 3 nằm trong thanh cố định ở cạnh dưới màn hình khi cuộn; 4 câu phần 4 hiển thị lần lượt 4 ảnh được cắt từ ảnh giáo trình bạn gửi; các đáp án và luồng bài tập giữ nguyên.
+
+Sau khi chép, mở website chạy thử tại máy trước. Chỉ commit/push khi đã kiểm tra audio và 4 hình. Không thêm các file backup hoặc .DS_Store.

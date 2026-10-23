@@ -684,544 +684,542 @@ window.hsk1Tests = {
     }
   ],
   "Bài 2 - 我叫李文": [
-    
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声母并大声朗读。",
-            "answers": [
-                "q"
-            ],
-            "promptLabel": "____ ián",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-            "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
-            "sectionNumber": "2",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "1"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声母并大声朗读。",
-            "answers": [
-                "j"
-            ],
-            "promptLabel": "____ ǐn",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-            "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
-            "sectionNumber": "2",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "1"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声母并大声朗读。",
-            "answers": [
-                "x"
-            ],
-            "promptLabel": "____ iǎng",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-            "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
-            "sectionNumber": "2",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "1"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声母并大声朗读。",
-            "answers": [
-                "j"
-            ],
-            "promptLabel": "____ iào",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-            "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
-            "sectionNumber": "2",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "1"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声母并大声朗读。",
-            "answers": [
-                "x"
-            ],
-            "promptLabel": "____ iè",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-            "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
-            "sectionNumber": "2",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "1"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声母并大声朗读。",
-            "answers": [
-                "q"
-            ],
-            "promptLabel": "____ ǐng",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-            "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
-            "sectionNumber": "2",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "1"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声母并大声朗读。",
-            "answers": [
-                "j"
-            ],
-            "promptLabel": "____ ǐ",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-            "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
-            "sectionNumber": "2",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "1"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声母并大声朗读。",
-            "answers": [
-                "q"
-            ],
-            "promptLabel": "____ ù",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-            "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
-            "sectionNumber": "2",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "1"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声母并大声朗读。",
-            "answers": [
-                "x"
-            ],
-            "promptLabel": "____ ià",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-            "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
-            "sectionNumber": "2",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "1"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "ian"
-            ],
-            "promptLabel": "j ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "ie"
-            ],
-            "promptLabel": "x ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "ü"
-            ],
-            "promptLabel": "q ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "iao"
-            ],
-            "promptLabel": "j ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "ing"
-            ],
-            "promptLabel": "q ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "üe"
-            ],
-            "promptLabel": "x ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "iao"
-            ],
-            "promptLabel": "j ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "ing"
-            ],
-            "promptLabel": "x ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "ie"
-            ],
-            "promptLabel": "j ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "ian"
-            ],
-            "promptLabel": "q ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "ian"
-            ],
-            "promptLabel": "x ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "i"
-            ],
-            "promptLabel": "q ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "ia"
-            ],
-            "promptLabel": "j ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "iu"
-            ],
-            "promptLabel": "x ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的韵母并大声朗读。",
-            "answers": [
-                "üan"
-            ],
-            "promptLabel": "q ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-            "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
-            "sectionNumber": "3",
-            "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
-            "displaySection": "2"
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声调并大声朗读。",
-            "answers": [
-                "xué"
-            ],
-            "promptLabel": "xue ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-            "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
-            "sectionNumber": "4",
-            "displaySection": "3",
-            "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声调并大声朗读。",
-            "answers": [
-                "jiào"
-            ],
-            "promptLabel": "jiao ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-            "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
-            "sectionNumber": "4",
-            "displaySection": "3",
-            "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声调并大声朗读。",
-            "answers": [
-                "qún"
-            ],
-            "promptLabel": "qun ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-            "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
-            "sectionNumber": "4",
-            "displaySection": "3",
-            "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声调并大声朗读。",
-            "answers": [
-                "jiǔ"
-            ],
-            "promptLabel": "jiu ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-            "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
-            "sectionNumber": "4",
-            "displaySection": "3",
-            "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声调并大声朗读。",
-            "answers": [
-                "xīn"
-            ],
-            "promptLabel": "xin ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-            "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
-            "sectionNumber": "4",
-            "displaySection": "3",
-            "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声调并大声朗读。",
-            "answers": [
-                "qǐng"
-            ],
-            "promptLabel": "qing ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-            "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
-            "sectionNumber": "4",
-            "displaySection": "3",
-            "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声调并大声朗读。",
-            "answers": [
-                "xià"
-            ],
-            "promptLabel": "xia ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-            "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
-            "sectionNumber": "4",
-            "displaySection": "3",
-            "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声调并大声朗读。",
-            "answers": [
-                "jiā"
-            ],
-            "promptLabel": "jia ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-            "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
-            "sectionNumber": "4",
-            "displaySection": "3",
-            "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声调并大声朗读。",
-            "answers": [
-                "qù"
-            ],
-            "promptLabel": "qu ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-            "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
-            "sectionNumber": "4",
-            "displaySection": "3",
-            "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声调并大声朗读。",
-            "answers": [
-                "jǐ"
-            ],
-            "promptLabel": "ji ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-            "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
-            "sectionNumber": "4",
-            "displaySection": "3",
-            "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声调并大声朗读。",
-            "answers": [
-                "xiǎo"
-            ],
-            "promptLabel": "xiao ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-            "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
-            "sectionNumber": "4",
-            "displaySection": "3",
-            "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
-        },
-        {
-            "type": "fill-in",
-            "question": "听录音，写出听到的声调并大声朗读。",
-            "answers": [
-                "jiě"
-            ],
-            "promptLabel": "jie ____",
-            "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-            "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
-            "sectionNumber": "4",
-            "displaySection": "3",
-            "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
-        },
-        {
-            "type": "multiple-choice",
-            "question": "看图片，选择正确的对话。",
-            "image": "images/lesson2_exercises/dialogue-picture-1.jpg",
-            "options": [
-                "A：老师，再见！  B：再见！",
-                "A：对不起。  B：没关系。",
-                "A：很高兴认识你。  B：认识你我也很高兴。",
-                "A：大家好，我叫白家月。  B：白家月，你好。"
-            ],
-            "answer": 2,
-            "pinyin": "Kàn túpiàn, xuǎnzé zhèngquè de duìhuà.",
-            "meaning": "Nhìn hình và chọn hội thoại phù hợp.",
-            "sectionNumber": "5",
-            "displaySection": "4",
-            "explanation": "Đáp án theo thứ tự trong sách: ③、①、④、②。"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "看图片，选择正确的对话。",
-            "image": "images/lesson2_exercises/dialogue-picture-2.jpg",
-            "options": [
-                "A：老师，再见！  B：再见！",
-                "A：对不起。  B：没关系。",
-                "A：很高兴认识你。  B：认识你我也很高兴。",
-                "A：大家好，我叫白家月。  B：白家月，你好。"
-            ],
-            "answer": 0,
-            "pinyin": "Kàn túpiàn, xuǎnzé zhèngquè de duìhuà.",
-            "meaning": "Nhìn hình và chọn hội thoại phù hợp.",
-            "sectionNumber": "5",
-            "displaySection": "4",
-            "explanation": "Đáp án theo thứ tự trong sách: ③、①、④、②。"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "看图片，选择正确的对话。",
-            "image": "images/lesson2_exercises/dialogue-picture-3.jpg",
-            "options": [
-                "A：老师，再见！  B：再见！",
-                "A：对不起。  B：没关系。",
-                "A：很高兴认识你。  B：认识你我也很高兴。",
-                "A：大家好，我叫白家月。  B：白家月，你好。"
-            ],
-            "answer": 3,
-            "pinyin": "Kàn túpiàn, xuǎnzé zhèngquè de duìhuà.",
-            "meaning": "Nhìn hình và chọn hội thoại phù hợp.",
-            "sectionNumber": "5",
-            "displaySection": "4",
-            "explanation": "Đáp án theo thứ tự trong sách: ③、①、④、②。"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "看图片，选择正确的对话。",
-            "image": "images/lesson2_exercises/dialogue-picture-4.jpg",
-            "options": [
-                "A：老师，再见！  B：再见！",
-                "A：对不起。  B：没关系。",
-                "A：很高兴认识你。  B：认识你我也很高兴。",
-                "A：大家好，我叫白家月。  B：白家月，你好。"
-            ],
-            "answer": 1,
-            "pinyin": "Kàn túpiàn, xuǎnzé zhèngquè de duìhuà.",
-            "meaning": "Nhìn hình và chọn hội thoại phù hợp.",
-            "sectionNumber": "5",
-            "displaySection": "4",
-            "explanation": "Đáp án theo thứ tự trong sách: ③、①、④、②。"
-        }
-    
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声母并大声朗读。",
+      "answers": [
+        "q"
+      ],
+      "promptLabel": "____ ián",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
+      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "sectionNumber": "2",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "1"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声母并大声朗读。",
+      "answers": [
+        "j"
+      ],
+      "promptLabel": "____ ǐn",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
+      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "sectionNumber": "2",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "1"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声母并大声朗读。",
+      "answers": [
+        "x"
+      ],
+      "promptLabel": "____ iǎng",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
+      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "sectionNumber": "2",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "1"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声母并大声朗读。",
+      "answers": [
+        "j"
+      ],
+      "promptLabel": "____ iào",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
+      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "sectionNumber": "2",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "1"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声母并大声朗读。",
+      "answers": [
+        "x"
+      ],
+      "promptLabel": "____ iè",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
+      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "sectionNumber": "2",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "1"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声母并大声朗读。",
+      "answers": [
+        "q"
+      ],
+      "promptLabel": "____ ǐng",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
+      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "sectionNumber": "2",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "1"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声母并大声朗读。",
+      "answers": [
+        "j"
+      ],
+      "promptLabel": "____ ǐ",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
+      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "sectionNumber": "2",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "1"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声母并大声朗读。",
+      "answers": [
+        "q"
+      ],
+      "promptLabel": "____ ù",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
+      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "sectionNumber": "2",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "1"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声母并大声朗读。",
+      "answers": [
+        "x"
+      ],
+      "promptLabel": "____ ià",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
+      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "sectionNumber": "2",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "1"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "ian"
+      ],
+      "promptLabel": "j ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "ie"
+      ],
+      "promptLabel": "x ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "ü"
+      ],
+      "promptLabel": "q ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "iao"
+      ],
+      "promptLabel": "j ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "ing"
+      ],
+      "promptLabel": "q ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "üe"
+      ],
+      "promptLabel": "x ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "iao"
+      ],
+      "promptLabel": "j ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "ing"
+      ],
+      "promptLabel": "x ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "ie"
+      ],
+      "promptLabel": "j ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "ian"
+      ],
+      "promptLabel": "q ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "ian"
+      ],
+      "promptLabel": "x ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "i"
+      ],
+      "promptLabel": "q ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "ia"
+      ],
+      "promptLabel": "j ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "iu"
+      ],
+      "promptLabel": "x ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的韵母并大声朗读。",
+      "answers": [
+        "üan"
+      ],
+      "promptLabel": "q ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
+      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo file đáp án chính thức.",
+      "displaySection": "2"
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "xué"
+      ],
+      "promptLabel": "xue ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
+      "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
+      "sectionNumber": "4",
+      "displaySection": "3",
+      "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "jiào"
+      ],
+      "promptLabel": "jiao ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
+      "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
+      "sectionNumber": "4",
+      "displaySection": "3",
+      "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "qún"
+      ],
+      "promptLabel": "qun ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
+      "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
+      "sectionNumber": "4",
+      "displaySection": "3",
+      "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "jiǔ"
+      ],
+      "promptLabel": "jiu ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
+      "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
+      "sectionNumber": "4",
+      "displaySection": "3",
+      "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "xīn"
+      ],
+      "promptLabel": "xin ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
+      "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
+      "sectionNumber": "4",
+      "displaySection": "3",
+      "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "qǐng"
+      ],
+      "promptLabel": "qing ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
+      "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
+      "sectionNumber": "4",
+      "displaySection": "3",
+      "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "xià"
+      ],
+      "promptLabel": "xia ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
+      "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
+      "sectionNumber": "4",
+      "displaySection": "3",
+      "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "jiā"
+      ],
+      "promptLabel": "jia ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
+      "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
+      "sectionNumber": "4",
+      "displaySection": "3",
+      "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "qù"
+      ],
+      "promptLabel": "qu ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
+      "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
+      "sectionNumber": "4",
+      "displaySection": "3",
+      "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "jǐ"
+      ],
+      "promptLabel": "ji ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
+      "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
+      "sectionNumber": "4",
+      "displaySection": "3",
+      "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "xiǎo"
+      ],
+      "promptLabel": "xiao ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
+      "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
+      "sectionNumber": "4",
+      "displaySection": "3",
+      "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "jiě"
+      ],
+      "promptLabel": "jie ____",
+      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
+      "meaning": "Nghe ghi âm, điền âm tiết có thanh điệu nghe được và đọc to.",
+      "sectionNumber": "4",
+      "displaySection": "3",
+      "explanation": "Đáp án theo thứ tự âm tiết trong trang bài tập Bài 2."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "看图片，选择正确的对话。",
+      "image": "images/lesson2_exercises/dialogue-picture-1.jpg",
+      "options": [
+        "A：老师，再见！  B：再见！",
+        "A：对不起。  B：没关系。",
+        "A：很高兴认识你。  B：认识你我也很高兴。",
+        "A：大家好，我叫白家月。  B：白家月，你好。"
+      ],
+      "answer": 2,
+      "pinyin": "Kàn túpiàn, xuǎnzé zhèngquè de duìhuà.",
+      "meaning": "Nhìn hình và chọn hội thoại phù hợp.",
+      "sectionNumber": "5",
+      "displaySection": "4",
+      "explanation": "Đáp án theo thứ tự trong sách: ③、①、④、②。"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "看图片，选择正确的对话。",
+      "image": "images/lesson2_exercises/dialogue-picture-2.jpg",
+      "options": [
+        "A：老师，再见！  B：再见！",
+        "A：对不起。  B：没关系。",
+        "A：很高兴认识你。  B：认识你我也很高兴。",
+        "A：大家好，我叫白家月。  B：白家月，你好。"
+      ],
+      "answer": 0,
+      "pinyin": "Kàn túpiàn, xuǎnzé zhèngquè de duìhuà.",
+      "meaning": "Nhìn hình và chọn hội thoại phù hợp.",
+      "sectionNumber": "5",
+      "displaySection": "4",
+      "explanation": "Đáp án theo thứ tự trong sách: ③、①、④、②。"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "看图片，选择正确的对话。",
+      "image": "images/lesson2_exercises/dialogue-picture-3.jpg",
+      "options": [
+        "A：老师，再见！  B：再见！",
+        "A：对不起。  B：没关系。",
+        "A：很高兴认识你。  B：认识你我也很高兴。",
+        "A：大家好，我叫白家月。  B：白家月，你好。"
+      ],
+      "answer": 3,
+      "pinyin": "Kàn túpiàn, xuǎnzé zhèngquè de duìhuà.",
+      "meaning": "Nhìn hình và chọn hội thoại phù hợp.",
+      "sectionNumber": "5",
+      "displaySection": "4",
+      "explanation": "Đáp án theo thứ tự trong sách: ③、①、④、②。"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "看图片，选择正确的对话。",
+      "image": "images/lesson2_exercises/dialogue-picture-4.jpg",
+      "options": [
+        "A：老师，再见！  B：再见！",
+        "A：对不起。  B：没关系。",
+        "A：很高兴认识你。  B：认识你我也很高兴。",
+        "A：大家好，我叫白家月。  B：白家月，你好。"
+      ],
+      "answer": 1,
+      "pinyin": "Kàn túpiàn, xuǎnzé zhèngquè de duìhuà.",
+      "meaning": "Nhìn hình và chọn hội thoại phù hợp.",
+      "sectionNumber": "5",
+      "displaySection": "4",
+      "explanation": "Đáp án theo thứ tự trong sách: ③、①、④、②。"
+    }
   ],
   "Bài 3 - 我是中国人": [
     {
@@ -1230,11 +1228,11 @@ window.hsk1Tests = {
       "answers": [
         "s"
       ],
-      "promptLabel": "ān ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "promptLabel": "____ ān",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết thanh mẫu còn thiếu và đọc to.",
       "sectionNumber": "1",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1242,11 +1240,11 @@ window.hsk1Tests = {
       "answers": [
         "ch"
       ],
-      "promptLabel": "ī ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "promptLabel": "____ ī",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết thanh mẫu còn thiếu và đọc to.",
       "sectionNumber": "1",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1254,11 +1252,11 @@ window.hsk1Tests = {
       "answers": [
         "z"
       ],
-      "promptLabel": "ǒu ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "promptLabel": "____ ǒu",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết thanh mẫu còn thiếu và đọc to.",
       "sectionNumber": "1",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1266,11 +1264,11 @@ window.hsk1Tests = {
       "answers": [
         "zh"
       ],
-      "promptLabel": "èng ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "promptLabel": "____ èng",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết thanh mẫu còn thiếu và đọc to.",
       "sectionNumber": "1",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1278,11 +1276,11 @@ window.hsk1Tests = {
       "answers": [
         "z"
       ],
-      "promptLabel": "ǐ ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "promptLabel": "____ ǐ",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết thanh mẫu còn thiếu và đọc to.",
       "sectionNumber": "1",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1290,11 +1288,11 @@ window.hsk1Tests = {
       "answers": [
         "ch"
       ],
-      "promptLabel": "àng ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "promptLabel": "____ àng",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết thanh mẫu còn thiếu và đọc to.",
       "sectionNumber": "1",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1302,11 +1300,11 @@ window.hsk1Tests = {
       "answers": [
         "r"
       ],
-      "promptLabel": "én ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "promptLabel": "____ én",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết thanh mẫu còn thiếu và đọc to.",
       "sectionNumber": "1",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1314,11 +1312,11 @@ window.hsk1Tests = {
       "answers": [
         "s"
       ],
-      "promptLabel": "uì ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "promptLabel": "____ uì",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết thanh mẫu còn thiếu và đọc to.",
       "sectionNumber": "1",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1326,11 +1324,11 @@ window.hsk1Tests = {
       "answers": [
         "c"
       ],
-      "promptLabel": "ài ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "promptLabel": "____ ài",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết thanh mẫu còn thiếu và đọc to.",
       "sectionNumber": "1",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1338,11 +1336,11 @@ window.hsk1Tests = {
       "answers": [
         "sh"
       ],
-      "promptLabel": "uǐ ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "promptLabel": "____ uǐ",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết thanh mẫu còn thiếu và đọc to.",
       "sectionNumber": "1",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1350,11 +1348,11 @@ window.hsk1Tests = {
       "answers": [
         "r"
       ],
-      "promptLabel": "ì ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "promptLabel": "____ ì",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết thanh mẫu còn thiếu và đọc to.",
       "sectionNumber": "1",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1362,11 +1360,11 @@ window.hsk1Tests = {
       "answers": [
         "zh"
       ],
-      "promptLabel": "ōng ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngmǔ.",
-      "meaning": "Nghe ghi âm, viết thanh mẫu nghe được và đọc to.",
+      "promptLabel": "____ ōng",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết thanh mẫu còn thiếu và đọc to.",
       "sectionNumber": "1",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1375,10 +1373,10 @@ window.hsk1Tests = {
         "u"
       ],
       "promptLabel": "z ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1387,10 +1385,10 @@ window.hsk1Tests = {
         "i"
       ],
       "promptLabel": "zh ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1399,10 +1397,10 @@ window.hsk1Tests = {
         "ai"
       ],
       "promptLabel": "c ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1411,10 +1409,10 @@ window.hsk1Tests = {
         "i"
       ],
       "promptLabel": "z ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1423,10 +1421,10 @@ window.hsk1Tests = {
         "ao"
       ],
       "promptLabel": "ch ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1435,10 +1433,10 @@ window.hsk1Tests = {
         "en"
       ],
       "promptLabel": "r ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1447,10 +1445,10 @@ window.hsk1Tests = {
         "ang"
       ],
       "promptLabel": "sh ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1459,10 +1457,10 @@ window.hsk1Tests = {
         "en"
       ],
       "promptLabel": "zh ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1471,10 +1469,10 @@ window.hsk1Tests = {
         "i"
       ],
       "promptLabel": "r ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1483,10 +1481,10 @@ window.hsk1Tests = {
         "an"
       ],
       "promptLabel": "s ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1495,10 +1493,10 @@ window.hsk1Tests = {
         "uan"
       ],
       "promptLabel": "ch ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1507,10 +1505,10 @@ window.hsk1Tests = {
         "e"
       ],
       "promptLabel": "r ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1519,10 +1517,10 @@ window.hsk1Tests = {
         "uo"
       ],
       "promptLabel": "zh ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1531,10 +1529,10 @@ window.hsk1Tests = {
         "ong"
       ],
       "promptLabel": "c ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
       "type": "fill-in",
@@ -1543,49 +1541,254 @@ window.hsk1Tests = {
         "ei"
       ],
       "promptLabel": "sh ____",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de yùnmǔ.",
-      "meaning": "Nghe ghi âm, viết vận mẫu nghe được và đọc to.",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết vận mẫu còn thiếu và đọc to.",
       "sectionNumber": "2",
-      "explanation": "Đáp án đối chiếu theo trang đáp án chính thức của Bài 3."
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
-      "type": "reading",
+      "type": "fill-in",
       "question": "听录音，写出听到的声调并大声朗读。",
-      "syllables": [
-        "chē",
-        "rén",
-        "chàng",
-        "zǎo",
-        "shǒu",
-        "zhēn",
-        "suì",
-        "shēng",
-        "rì",
-        "zhōng",
-        "shuǐ",
-        "zuò",
-        "chuáng",
-        "shū",
-        "sì"
+      "answers": [
+        "1"
       ],
-      "explanation": "Phần luyện thanh điệu: nghe audio Bài 3, ghi thanh điệu nghe được và đọc to. Chưa bật chấm điểm tự động vì bản đáp án hiện có không thể hiện rõ đủ đáp án thanh điệu cho từng âm tiết.",
-      "pinyin": "Tīng lùyīn, xiě chū tīng dào de shēngdiào.",
-      "meaning": "Nghe ghi âm, ghi thanh điệu nghe được và đọc to.",
-      "sectionNumber": "3"
+      "promptLabel": "che · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     },
     {
-      "type": "reading",
-      "question": "看图片，选择正确的对话。",
-      "syllables": [
-        "练习1：看图选择正确对话",
-        "练习2：看图选择正确对话",
-        "练习3：看图选择正确对话",
-        "练习4：看图选择正确对话"
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "2"
       ],
-      "explanation": "Bài có 4 hình đối thoại. File đáp án ghi thứ tự ③、④、①、②; cần đối chiếu vị trí hình và các lựa chọn hội thoại trong bản in trước khi bật chấm tự động.",
+      "promptLabel": "ren · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "4"
+      ],
+      "promptLabel": "chang · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "3"
+      ],
+      "promptLabel": "zao · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "3"
+      ],
+      "promptLabel": "shou · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "3"
+      ],
+      "promptLabel": "zhen · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "4"
+      ],
+      "promptLabel": "sui · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "1"
+      ],
+      "promptLabel": "sheng · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "4"
+      ],
+      "promptLabel": "ri · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "1"
+      ],
+      "promptLabel": "zhong · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "3"
+      ],
+      "promptLabel": "shui · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "4"
+      ],
+      "promptLabel": "zuo · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "2"
+      ],
+      "promptLabel": "chuang · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "1"
+      ],
+      "promptLabel": "shu · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "fill-in",
+      "question": "听录音，写出听到的声调并大声朗读。",
+      "answers": [
+        "4"
+      ],
+      "promptLabel": "si · thanh điệu ____",
+      "pinyin": "Tīng lùyīn, xiě chū dá'àn, ránhòu dàshēng lǎngdú.",
+      "meaning": "Nghe audio Bài 3-2, viết số thanh điệu (1, 2, 3 hoặc 4) và đọc to.",
+      "sectionNumber": "3",
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "看第1张图片，选择正确的对话。",
+      "image": "images/lesson3_dialogue/image-1.png",
       "pinyin": "Kàn túpiàn, xuǎnzé zhèngquè de duìhuà.",
-      "meaning": "Nhìn hình và chọn đoạn hội thoại đúng.",
-      "sectionNumber": "4"
+      "meaning": "Xem hình trong sách và chọn đoạn hội thoại phù hợp.",
+      "sectionNumber": "4",
+      "options": [
+        "A：我是法国人。 B：我也是法国人。",
+        "A：这是我女朋友。 B：你好，很高兴认识你。",
+        "A：王老师是你的中文老师吗？ B：是的。",
+        "A：喂，你工作忙吗？ B：我工作不忙。"
+      ],
+      "answer": 2,
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "看第2张图片，选择正确的对话。",
+      "image": "images/lesson3_dialogue/image-2.png",
+      "pinyin": "Kàn túpiàn, xuǎnzé zhèngquè de duìhuà.",
+      "meaning": "Xem hình trong sách và chọn đoạn hội thoại phù hợp.",
+      "sectionNumber": "4",
+      "options": [
+        "A：我是法国人。 B：我也是法国人。",
+        "A：这是我女朋友。 B：你好，很高兴认识你。",
+        "A：王老师是你的中文老师吗？ B：是的。",
+        "A：喂，你工作忙吗？ B：我工作不忙。"
+      ],
+      "answer": 3,
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "看第3张图片，选择正确的对话。",
+      "image": "images/lesson3_dialogue/image-3.png",
+      "pinyin": "Kàn túpiàn, xuǎnzé zhèngquè de duìhuà.",
+      "meaning": "Xem hình trong sách và chọn đoạn hội thoại phù hợp.",
+      "sectionNumber": "4",
+      "options": [
+        "A：我是法国人。 B：我也是法国人。",
+        "A：这是我女朋友。 B：你好，很高兴认识你。",
+        "A：王老师是你的中文老师吗？ B：是的。",
+        "A：喂，你工作忙吗？ B：我工作不忙。"
+      ],
+      "answer": 0,
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "看第4张图片，选择正确的对话。",
+      "image": "images/lesson3_dialogue/image-4.png",
+      "pinyin": "Kàn túpiàn, xuǎnzé zhèngquè de duìhuà.",
+      "meaning": "Xem hình trong sách và chọn đoạn hội thoại phù hợp.",
+      "sectionNumber": "4",
+      "options": [
+        "A：我是法国人。 B：我也是法国人。",
+        "A：这是我女朋友。 B：你好，很高兴认识你。",
+        "A：王老师是你的中文老师吗？ B：是的。",
+        "A：喂，你工作忙吗？ B：我工作不忙。"
+      ],
+      "answer": 1,
+      "explanation": "Đáp án đối chiếu theo ảnh đáp án gốc Bài 3."
     }
   ],
   "Bài 4 - 我有两个孩子": [
@@ -2915,684 +3118,684 @@ window.hsk1Tests = {
   ],
   "Bài 11 - 我读大学呢": [
     {
-        "type": "multiple-choice",
-        "question": "第11课语音练习：声调辨析第1题。听第11课语音音频，选择每组音节里声调不同的一个。",
-        "options": [
-            "A",
-            "B",
-            "C"
-        ],
-        "answer": 0,
-        "sectionNumber": "语音·声调辨析",
-        "explanation": "官方答案：A。原书各组选项的具体音节尚需逐项核对。"
+      "type": "multiple-choice",
+      "question": "第11课语音练习：声调辨析第1题。听第11课语音音频，选择每组音节里声调不同的一个。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer": 0,
+      "sectionNumber": "语音·声调辨析",
+      "explanation": "官方答案：A。原书各组选项的具体音节尚需逐项核对。"
     },
     {
-        "type": "multiple-choice",
-        "question": "第11课语音练习：声调辨析第2题。听第11课语音音频，选择每组音节里声调不同的一个。",
-        "options": [
-            "A",
-            "B",
-            "C"
-        ],
-        "answer": 2,
-        "sectionNumber": "语音·声调辨析",
-        "explanation": "官方答案：C。原书各组选项的具体音节尚需逐项核对。"
+      "type": "multiple-choice",
+      "question": "第11课语音练习：声调辨析第2题。听第11课语音音频，选择每组音节里声调不同的一个。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer": 2,
+      "sectionNumber": "语音·声调辨析",
+      "explanation": "官方答案：C。原书各组选项的具体音节尚需逐项核对。"
     },
     {
-        "type": "multiple-choice",
-        "question": "第11课语音练习：声调辨析第3题。听第11课语音音频，选择每组音节里声调不同的一个。",
-        "options": [
-            "A",
-            "B",
-            "C"
-        ],
-        "answer": 2,
-        "sectionNumber": "语音·声调辨析",
-        "explanation": "官方答案：C。原书各组选项的具体音节尚需逐项核对。"
+      "type": "multiple-choice",
+      "question": "第11课语音练习：声调辨析第3题。听第11课语音音频，选择每组音节里声调不同的一个。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer": 2,
+      "sectionNumber": "语音·声调辨析",
+      "explanation": "官方答案：C。原书各组选项的具体音节尚需逐项核对。"
     },
     {
-        "type": "multiple-choice",
-        "question": "第11课语音练习：声调辨析第4题。听第11课语音音频，选择每组音节里声调不同的一个。",
-        "options": [
-            "A",
-            "B",
-            "C"
-        ],
-        "answer": 1,
-        "sectionNumber": "语音·声调辨析",
-        "explanation": "官方答案：B。原书各组选项的具体音节尚需逐项核对。"
+      "type": "multiple-choice",
+      "question": "第11课语音练习：声调辨析第4题。听第11课语音音频，选择每组音节里声调不同的一个。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer": 1,
+      "sectionNumber": "语音·声调辨析",
+      "explanation": "官方答案：B。原书各组选项的具体音节尚需逐项核对。"
     },
     {
-        "type": "multiple-choice",
-        "question": "第11课语音练习：声调辨析第5题。听第11课语音音频，选择每组音节里声调不同的一个。",
-        "options": [
-            "A",
-            "B",
-            "C"
-        ],
-        "answer": 1,
-        "sectionNumber": "语音·声调辨析",
-        "explanation": "官方答案：B。原书各组选项的具体音节尚需逐项核对。"
+      "type": "multiple-choice",
+      "question": "第11课语音练习：声调辨析第5题。听第11课语音音频，选择每组音节里声调不同的一个。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer": 1,
+      "sectionNumber": "语音·声调辨析",
+      "explanation": "官方答案：B。原书各组选项的具体音节尚需逐项核对。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·听力第1题。请根据原书题干、图片或选项完成作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·听力第1题。请根据原书题干、图片或选项完成作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·听力第2题。请根据原书题干、图片或选项完成作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·听力第2题。请根据原书题干、图片或选项完成作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·听力第3题。请根据原书题干、图片或选项完成作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·听力第3题。请根据原书题干、图片或选项完成作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·听力第4题。请根据原书题干、图片或选项完成作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·听力第4题。请根据原书题干、图片或选项完成作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·听力第5题。请根据原书题干、图片或选项完成作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·听力第5题。请根据原书题干、图片或选项完成作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·听力第6题。请根据原书题干、图片或选项完成作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "官方答案表：D。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·听力第6题。请根据原书题干、图片或选项完成作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "官方答案表：D。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·听力第7题。请根据原书题干、图片或选项完成作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·听力第7题。请根据原书题干、图片或选项完成作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·听力第8题。请根据原书题干、图片或选项完成作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·听力第8题。请根据原书题干、图片或选项完成作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·听力第9题。请根据原书题干、图片或选项完成作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·听力第9题。请根据原书题干、图片或选项完成作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·听力第10题。请根据原书题干、图片或选项完成作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·听力第10题。请根据原书题干、图片或选项完成作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·阅读第11题。请根据原书题干与选项完成作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·阅读第11题。请根据原书题干与选项完成作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·阅读第12题。请根据原书题干与选项完成作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·阅读第12题。请根据原书题干与选项完成作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·阅读第13题。请根据原书题干与选项完成作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "官方答案表：D。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·阅读第13题。请根据原书题干与选项完成作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "官方答案表：D。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·阅读第14题。请根据原书题干与选项完成作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·阅读第14题。请根据原书题干与选项完成作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "官方答案表：C。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·阅读第15题。请根据原书题干与选项完成作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "官方答案表：A。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·阅读第15题。请根据原书题干与选项完成作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "官方答案表：A。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·阅读第16题。请根据原书题干与选项完成作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·阅读第16题。请根据原书题干与选项完成作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·阅读第17题。请根据原书题干与选项完成作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·阅读第17题。请根据原书题干与选项完成作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·阅读第18题。请根据原书题干与选项完成作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "官方答案表：A。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·阅读第18题。请根据原书题干与选项完成作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "官方答案表：A。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·阅读第19题。请根据原书题干与选项完成作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·阅读第19题。请根据原书题干与选项完成作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "官方答案表：B。题干与选项未逐项录入，暂不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第11课模拟测练·阅读第20题。请根据原书题干与选项完成作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "官方答案表：A。题干与选项未逐项录入，暂不自动评分。"
+      "type": "reading",
+      "question": "第11课模拟测练·阅读第20题。请根据原书题干与选项完成作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "官方答案表：A。题干与选项未逐项录入，暂不自动评分。"
     }
-],
-    "Bài 12 - 昨天下雪了": [
+  ],
+  "Bài 12 - 昨天下雪了": [
     {
-        "type": "reading",
-        "question": "第12课模拟测练·听力第1题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·听力第1题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·听力第2题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·听力第2题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·听力第3题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·听力第3题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·听力第4题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·听力第4题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·听力第5题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·听力第5题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·听力第6题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·听力第6题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·听力第7题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·听力第7题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·听力第8题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·听力第8题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·听力第9题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·听力第9题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·听力第10题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·听力第10题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·阅读第11题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·阅读第11题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·阅读第12题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·阅读第12题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·阅读第13题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·阅读第13题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·阅读第14题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·阅读第14题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·阅读第15题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·阅读第15题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·阅读第16题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·阅读第16题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·阅读第17题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·阅读第17题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·阅读第18题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·阅读第18题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·阅读第19题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·阅读第19题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第12课模拟测练·阅读第20题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第12课模拟测练·阅读第20题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第12课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     }
-],
-    "Bài 13 - 请给我一杯茶": [
+  ],
+  "Bài 13 - 请给我一杯茶": [
     {
-        "type": "reading",
-        "question": "第13课模拟测练·听力第1题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·听力第1题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·听力第2题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·听力第2题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·听力第3题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·听力第3题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·听力第4题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·听力第4题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·听力第5题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·听力第5题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·听力第6题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·听力第6题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·听力第7题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·听力第7题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·听力第8题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·听力第8题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·听力第9题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·听力第9题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·听力第10题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·听力第10题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·阅读第11题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·阅读第11题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·阅读第12题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·阅读第12题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·阅读第13题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·阅读第13题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·阅读第14题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·阅读第14题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·阅读第15题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·阅读第15题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·阅读第16题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·阅读第16题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·阅读第17题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·阅读第17题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·阅读第18题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·阅读第18题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·阅读第19题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·阅读第19题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     },
     {
-        "type": "reading",
-        "question": "第13课模拟测练·阅读第20题。请按原书题目作答。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
+      "type": "reading",
+      "question": "第13课模拟测练·阅读第20题。请按原书题目作答。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "待与第13课原书题干、选项及官方答案逐题核对；当前不自动评分。"
     }
-],
+  ],
   "Bài 14 - 我看了一个电影": [
     {
-        "type": "reading",
-        "question": "第14课语音练习：请听音频并按原书内容练习。",
-        "sectionNumber": "语音",
-        "explanation": "已接入本课原始语音音频；具体题目和标准答案需与原书逐项核对。"
+      "type": "reading",
+      "question": "第14课语音练习：请听音频并按原书内容练习。",
+      "sectionNumber": "语音",
+      "explanation": "已接入本课原始语音音频；具体题目和标准答案需与原书逐项核对。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第1题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第1题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第2题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第2题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第3题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第3题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第4题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第4题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第5题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第5题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第6题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第6题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第7题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第7题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第8题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第8题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第9题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第9题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第10题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第10题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第11题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第11题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第12题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第12题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第13题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第13题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第14题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第14题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第15题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第15题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第16题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第16题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第17题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第17题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第18题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第18题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第19题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第19题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第14课模拟测练·第20题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第14课模拟测练·第20题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     }
-],
+  ],
   "Bài 15 - 大兴机场见！": [
     {
-        "type": "reading",
-        "question": "第15课语音练习：请听音频并按原书内容练习。",
-        "sectionNumber": "语音",
-        "explanation": "已接入本课原始语音音频；具体题目和标准答案需与原书逐项核对。"
+      "type": "reading",
+      "question": "第15课语音练习：请听音频并按原书内容练习。",
+      "sectionNumber": "语音",
+      "explanation": "已接入本课原始语音音频；具体题目和标准答案需与原书逐项核对。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第1题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第1题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第2题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第2题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第3题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第3题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第4题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第4题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第5题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第5题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第6题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第6题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第7题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第7题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第8题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第8题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第9题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第9题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第10题。请对照原书完成。",
-        "sectionNumber": "模拟测练·听力",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第10题。请对照原书完成。",
+      "sectionNumber": "模拟测练·听力",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第11题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第11题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第12题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第12题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第13题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第13题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第14题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第14题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第15题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第15题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第16题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第16题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第17题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第17题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第18题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第18题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第19题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第19题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     },
     {
-        "type": "reading",
-        "question": "第15课模拟测练·第20题。请对照原书完成。",
-        "sectionNumber": "模拟测练·阅读",
-        "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
+      "type": "reading",
+      "question": "第15课模拟测练·第20题。请对照原书完成。",
+      "sectionNumber": "模拟测练·阅读",
+      "explanation": "题干、选项与官方答案尚未逐题核对；本项不自动评分，避免误判。"
     }
-]
+  ]
 };

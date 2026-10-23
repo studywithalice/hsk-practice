@@ -77,12 +77,14 @@ function backToLevels() {
 function returnLesson2ToTestList() {
   const lesson1 = document.getElementById("phoneticsLesson");
   const lesson2 = document.getElementById("phoneticsLesson2");
+  const lesson3 = document.getElementById("phoneticsLesson3");
   const quiz = document.getElementById("quiz");
   const audioDock = document.getElementById("sampleAudioDock");
   const levelsPage = document.getElementById("levelSelectionPage");
   const testPage = document.getElementById("hsk1TestPage");
   if (lesson1) lesson1.hidden = true;
   if (lesson2) lesson2.hidden = true;
+  if (lesson3) lesson3.hidden = true;
   if (quiz) quiz.hidden = true;
   if (audioDock) audioDock.hidden = true;
   if (levelsPage) levelsPage.hidden = true;
@@ -93,12 +95,14 @@ function returnLesson2ToTestList() {
 function returnLesson2Home() {
   const lesson1 = document.getElementById("phoneticsLesson");
   const lesson2 = document.getElementById("phoneticsLesson2");
+  const lesson3 = document.getElementById("phoneticsLesson3");
   const quiz = document.getElementById("quiz");
   const audioDock = document.getElementById("sampleAudioDock");
   const testPage = document.getElementById("hsk1TestPage");
   const levelsPage = document.getElementById("levelSelectionPage");
   if (lesson1) lesson1.hidden = true;
   if (lesson2) lesson2.hidden = true;
+  if (lesson3) lesson3.hidden = true;
   if (quiz) quiz.hidden = true;
   if (audioDock) audioDock.hidden = true;
   if (testPage) testPage.hidden = true;
@@ -164,6 +168,8 @@ function openHSK1Lesson(testName = "Bài 1 - AI 小语，你好！") {
   if (lessonNumber === 2) {
     if (lesson) lesson.hidden = true;
     if (lesson2) lesson2.hidden = false;
+    const lesson3 = document.getElementById("phoneticsLesson3");
+    if (lesson3) lesson3.hidden = true;
     if (quiz) quiz.hidden = true;
     if (audioDock) audioDock.hidden = true;
     resetLesson2BookPages();
@@ -171,6 +177,20 @@ function openHSK1Lesson(testName = "Bài 1 - AI 小语，你好！") {
     return;
   }
 
+  if (lessonNumber === 3) {
+    const lesson3 = document.getElementById("phoneticsLesson3");
+    if (lesson) lesson.hidden = true;
+    if (lesson2) lesson2.hidden = true;
+    if (lesson3) lesson3.hidden = false;
+    if (quiz) quiz.hidden = true;
+    if (audioDock) audioDock.hidden = false;
+    setDockAudio(getLessonAudio(testName, "pronunciation"), "语音 · Ngữ âm Bài 3");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+
+  const lesson3 = document.getElementById("phoneticsLesson3");
+  if (lesson3) lesson3.hidden = true;
   if (lesson) lesson.hidden = true;
   if (lesson2) lesson2.hidden = true;
   if (quiz) quiz.hidden = false;
@@ -258,6 +278,11 @@ document.addEventListener("DOMContentLoaded", () => {
     ?.addEventListener("click", () => showLessonPage(activeLessonPage + 1));
 
   initLesson2BookControls();
+  document.getElementById("lesson3StartPractice")?.addEventListener("click", () => {
+    const lesson3 = document.getElementById("phoneticsLesson3");
+    if (lesson3) lesson3.hidden = true;
+    startHSK1("Bài 3 - 我是中国人");
+  });
   showLessonPage(0, false);
 });
 
@@ -312,6 +337,8 @@ function startHSK1(testName = "Bài 1 - AI 小语，你好！") {
   if (lesson) lesson.hidden = true;
   const lesson2 = document.getElementById("phoneticsLesson2");
   if (lesson2) lesson2.hidden = true;
+  const lesson3 = document.getElementById("phoneticsLesson3");
+  if (lesson3) lesson3.hidden = true;
   const audioDock = document.getElementById("sampleAudioDock");
   if (audioDock) audioDock.hidden = true;
   
@@ -425,7 +452,12 @@ card.hidden = true;
       input.className = "fill-answer";
       input.name = `question-${index}`;
       // Hướng dẫn nhập liệu phải khớp với dạng câu hỏi trong giáo trình.
-      if (String(item.sectionNumber) === "2") {
+      if (String(testName).includes("Bài 3")) {
+        if (String(item.sectionNumber) === "1") input.placeholder = "Nhập thanh mẫu (ví dụ: zh, ch, sh)...";
+        else if (String(item.sectionNumber) === "2") input.placeholder = "Nhập vận mẫu (ví dụ: ai, uan, ong)...";
+        else if (String(item.sectionNumber) === "3") input.placeholder = "Nhập số thanh điệu (1, 2, 3 hoặc 4)...";
+        else input.placeholder = "Nhập câu trả lời...";
+      } else if (String(item.sectionNumber) === "2") {
         input.placeholder = "Nhập thanh mẫu (ví dụ: b, d, m)...";
       } else if (String(item.sectionNumber) === "3") {
         input.placeholder = "Nhập vận mẫu (ví dụ: a, ai, an)...";
@@ -824,6 +856,10 @@ function backToHome() {
   document.getElementById("quiz").hidden = true;
   const lesson = document.getElementById("phoneticsLesson");
   if (lesson) lesson.hidden = true;
+  const lesson2 = document.getElementById("phoneticsLesson2");
+  if (lesson2) lesson2.hidden = true;
+  const lesson3 = document.getElementById("phoneticsLesson3");
+  if (lesson3) lesson3.hidden = true;
   const audioDock = document.getElementById("sampleAudioDock");
   if (audioDock) audioDock.hidden = true;
   const levelsPage = document.getElementById("levelSelectionPage");
