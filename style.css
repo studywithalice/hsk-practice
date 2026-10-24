@@ -1235,3 +1235,25 @@ body:has(#phoneticsLesson2:not([hidden])) { padding-bottom:76px; }
 .lesson3-source-page { margin: 18px auto; width: 100%; max-width: 1000px; text-align: center; }
 .lesson3-source-page img { display: block; width: 100%; height: auto; object-fit: contain; border-radius: 4px; }
 .lesson3-source-images > p { line-height: 1.6; }
+
+
+/* Study page background fix: keep the home/level-selection design unchanged. */
+body:has(#phoneticsLesson:not([hidden])),
+body:has(#phoneticsLesson2:not([hidden])),
+body:has(#phoneticsLesson3:not([hidden])),
+body:has(#quiz:not([hidden])) {
+  background-color: #f6f3ed !important;
+  background-image:
+    linear-gradient(rgba(250, 248, 243, .66), rgba(250, 248, 243, .72)),
+    url('images/ui-backgrounds/study-focus-background.svg') !important;
+  background-size: cover, cover !important;
+  background-position: center, center !important;
+  background-repeat: no-repeat, no-repeat !important;
+  background-attachment: fixed, fixed !important;
+}
+body:has(#phoneticsLesson:not([hidden])) main,
+body:has(#phoneticsLesson2:not([hidden])) main,
+body:has(#phoneticsLesson3:not([hidden])) main,
+body:has(#quiz:not([hidden])) main {
+  background: transparent !important;
+}
